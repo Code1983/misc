@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.02" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="2" altunitdist="mm" altunit="mm"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -196,7 +196,7 @@
 <wire x1="12.8" y1="17.2" x2="0.6" y2="17.2" width="1.27" layer="29"/>
 <wire x1="22.6" y1="13.8" x2="22.6" y2="8.4" width="1.27" layer="29"/>
 <wire x1="22.6" y1="6.2" x2="22.6" y2="1" width="1.27" layer="29"/>
-<wire x1="30.6" y1="17.4" x2="37.4" y2="17.4" width="1.27" layer="29"/>
+<wire x1="30.7" y1="17.2" x2="37.5" y2="17.2" width="1.27" layer="29"/>
 <wire x1="27.4" y1="22.2" x2="35" y2="29.8" width="1.27" layer="29"/>
 <wire x1="35" y1="29.8" x2="37.2" y2="29.8" width="1.27" layer="29"/>
 <text x="3.8" y="30" size="0.8" layer="25" rot="R90">VCC</text>
@@ -1912,8 +1912,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C9" library="oresat-rcl" package=".0603-B-NOSILK" value="10uF" x="25.908" y="25.026" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.546" y="22.826" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
-<element name="RF_A" library="J-Cinch-142-0701-851-SMA-end-launch" package="142-0701-851" value="142-0701-851" x="37.922" y="17.38" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.382" y="10.83" size="0.8" layer="25" font="vector"/>
+<element name="RF_A" library="J-Cinch-142-0701-851-SMA-end-launch" package="142-0701-851" value="142-0701-851" x="37.962" y="17.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.422" y="10.63" size="0.8" layer="25" font="vector"/>
 </element>
 <element name="RF_B" library="J-Cinch-142-0701-851-SMA-end-launch" package="142-0701-851" value="142-0701-851" x="22.498" y="0.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="16.148" y="2.74" size="0.8" layer="25" font="vector" rot="R180"/>
@@ -2027,23 +2027,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="0.254" y="0"/>
 </polygon>
 <polygon width="0.38" layer="1">
-<vertex x="0.4" y="36.6"/>
-<vertex x="37.8" y="36.6"/>
-<vertex x="37.8" y="0"/>
-<vertex x="0" y="0"/>
 <vertex x="0" y="36.6"/>
+<vertex x="39.62" y="36.6"/>
+<vertex x="39.62" y="-0.02"/>
+<vertex x="0" y="-0.02"/>
 </polygon>
 <wire x1="18.288" y1="2.76225" x2="18.2435" y2="2.766" width="0.254" layer="16"/>
-<wire x1="35.433" y1="13.1445" x2="35.356" y2="13.1255" width="0.254" layer="16"/>
-<wire x1="35.433" y1="21.62175" x2="35.356" y2="21.6345" width="0.254" layer="16"/>
+<wire x1="35.473" y1="12.9445" x2="35.396" y2="12.9255" width="0.254" layer="16"/>
+<wire x1="35.473" y1="21.42175" x2="35.396" y2="21.4345" width="0.254" layer="16"/>
 <wire x1="35.433" y1="25.527" x2="35.356" y2="25.5715" width="0.254" layer="16"/>
-<wire x1="35.433" y1="21.717" x2="35.356" y2="21.6345" width="0.254" layer="16"/>
+<wire x1="35.473" y1="21.517" x2="35.396" y2="21.4345" width="0.254" layer="16"/>
 <wire x1="26.76525" y1="4.47675" x2="26.76525" y2="2.8575" width="0.254" layer="16"/>
 <wire x1="26.76525" y1="2.8575" x2="26.7525" y2="2.766" width="0.254" layer="16"/>
-<wire x1="35.33775" y1="13.04925" x2="35.356" y2="13.1255" width="0.254" layer="16"/>
+<wire x1="35.37775" y1="12.84925" x2="35.396" y2="12.9255" width="0.254" layer="16"/>
 <wire x1="18.57375" y1="18.57375" x2="18.57375" y2="18.8595" width="0.254" layer="1"/>
 <wire x1="18.97" y1="20.17775" x2="18.8448" y2="20.30295" width="0.254" layer="1"/>
-<wire x1="18.57375" y1="20.574" x2="18.8448" y2="20.30295" width="0.254" layer="1"/>
 <wire x1="35.33775" y1="34.0995" x2="35.356" y2="34.0805" width="0.254" layer="16"/>
 <wire x1="31.0515" y1="34.0995" x2="31.02" y2="34.04" width="0.254" layer="16"/>
 <wire x1="35.433" y1="25.62225" x2="35.356" y2="25.5715" width="0.254" layer="16"/>
@@ -2062,18 +2060,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="0.2" y="36.6"/>
 </polygon>
 <wire x1="19.729075" y1="16.670925" x2="19.579075" y2="16.520925" width="0.4064" layer="1"/>
-<via x="31.6" y="18.8" extent="1-16" drill="0.35"/>
-<via x="33.4" y="18.8" extent="1-16" drill="0.35"/>
-<via x="35.2" y="18.8" extent="1-16" drill="0.35"/>
-<via x="33.8" y="21.6" extent="1-16" drill="0.35"/>
-<via x="35.6" y="21.6" extent="1-16" drill="0.35"/>
-<via x="37" y="21.6" extent="1-16" drill="0.35"/>
-<via x="35.2" y="16" extent="1-16" drill="0.35"/>
-<via x="33.6" y="16" extent="1-16" drill="0.35"/>
-<via x="31.6" y="16" extent="1-16" drill="0.35"/>
-<via x="33.8" y="13.2" extent="1-16" drill="0.35"/>
-<via x="35.4" y="13.2" extent="1-16" drill="0.35"/>
-<via x="36.8" y="13.2" extent="1-16" drill="0.35"/>
+<via x="31.52" y="18.82" extent="1-16" drill="0.35"/>
+<via x="33.42" y="18.62" extent="1-16" drill="0.35"/>
+<via x="35.2" y="18.62" extent="1-16" drill="0.35"/>
+<via x="33.78" y="21.42" extent="1-16" drill="0.35"/>
+<via x="35.58" y="21.44" extent="1-16" drill="0.35"/>
+<via x="37" y="21.46" extent="1-16" drill="0.35"/>
+<via x="35.26" y="15.88" extent="1-16" drill="0.35"/>
+<via x="33.58" y="15.8" extent="1-16" drill="0.35"/>
+<via x="31.54" y="15.78" extent="1-16" drill="0.35"/>
+<via x="33.86" y="13" extent="1-16" drill="0.35"/>
+<via x="35.46" y="13" extent="1-16" drill="0.35"/>
+<via x="36.82" y="12.96" extent="1-16" drill="0.35"/>
 <via x="37" y="25.6" extent="1-16" drill="0.35"/>
 <via x="35.4" y="25.6" extent="1-16" drill="0.35"/>
 <via x="33.8" y="25.6" extent="1-16" drill="0.35"/>
@@ -2210,10 +2208,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="22.62" y="19.9" extent="1-16" drill="0.35"/>
 <via x="22.62" y="18.7" extent="1-16" drill="0.35"/>
 <via x="22.58" y="17.06" extent="1-16" drill="0.35"/>
+<wire x1="18.47" y1="21.39" x2="18.47" y2="20.925175" width="0.254" layer="1"/>
+<wire x1="18.47" y1="20.925175" x2="18.479" y2="20.916175" width="0.254" layer="1"/>
+<wire x1="18.479" y1="20.916175" x2="18.479" y2="20.66875" width="0.254" layer="1"/>
+<wire x1="18.479" y1="20.66875" x2="18.8448" y2="20.30295" width="0.254" layer="1"/>
+<via x="15.1" y="27.2" extent="1-16" drill="0.35"/>
+<via x="16.86" y="27.28" extent="1-16" drill="0.35"/>
+<polygon width="0.254" layer="1" thermals="no">
+<vertex x="16.52" y="5.7"/>
+<vertex x="16.52" y="-1.3"/>
+<vertex x="28.96" y="-1.3"/>
+<vertex x="28.96" y="5.7"/>
+</polygon>
 <wire x1="19" y1="19.3" x2="18.57375" y2="18.8595" width="0" layer="19" extent="1-1"/>
 <wire x1="19.14525" y1="19.90725" x2="19" y2="19.3" width="0" layer="19" extent="1-1"/>
 <wire x1="19.2" y1="18.2" x2="19.4" y2="18.8" width="0" layer="19" extent="1-1"/>
-<wire x1="22.97" y1="21.39" x2="22.62" y2="19.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$1" pad="VBIASVARAC"/>
@@ -2413,8 +2422,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$17" class="2">
 <contactref element="C23" pad="2"/>
 <contactref element="RF_A" pad="RF1"/>
-<wire x1="30.06" y1="17.18" x2="30.39" y2="17.38" width="0.381" layer="1"/>
-<wire x1="30.39" y1="17.38" x2="36.776" y2="17.38" width="0.38" layer="1"/>
+<wire x1="36.816" y1="17.18" x2="30.06" y2="17.18" width="0.38" layer="1"/>
 </signal>
 <signal name="N$18" class="2">
 <contactref element="C25" pad="2"/>
@@ -2451,10 +2459,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.955" y1="22.79325" x2="20.955" y2="24.003" width="0.254" layer="1"/>
 <wire x1="20.955" y1="24.003" x2="20.974" y2="24.35" width="0.254" layer="1"/>
 <wire x1="20.955" y1="21.43125" x2="20.97" y2="21.39" width="0.254" layer="1"/>
-<wire x1="20.85975" y1="16.564" x2="20.85975" y2="22.79325" width="0.254" layer="16"/>
-<wire x1="18.06425" y1="13.7685" x2="20.85975" y2="16.564" width="0.254" layer="16"/>
-<wire x1="20.85975" y1="22.79325" x2="20.955" y2="22.79325" width="0.254" layer="1"/>
-<via x="20.85975" y="22.79325" extent="1-16" drill="0.254"/>
+<wire x1="20.95975" y1="16.664" x2="20.95975" y2="22.79325" width="0.254" layer="16"/>
+<wire x1="18.06425" y1="13.7685" x2="20.95975" y2="16.664" width="0.254" layer="16"/>
+<wire x1="20.95975" y1="22.79325" x2="20.955" y2="22.79325" width="0.254" layer="1"/>
+<via x="20.95975" y="22.79325" extent="1-16" drill="0.254"/>
 <via x="18.06425" y="13.7685" extent="1-16" drill="0.254"/>
 <wire x1="18.018" y1="12.796" x2="18.018" y2="13.72225" width="0.254" layer="1"/>
 <wire x1="18.018" y1="13.72225" x2="18.06425" y2="13.7685" width="0.254" layer="1"/>
@@ -2508,7 +2516,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.85975" y1="14.18275" x2="20.85975" y2="14.859" width="0.254" layer="1"/>
 <wire x1="21.355" y1="13.6875" x2="20.85975" y2="14.18275" width="0.254" layer="1"/>
 <wire x1="20.955" y1="15.4305" x2="20.97" y2="15.51" width="0.254" layer="1"/>
-<wire x1="13.24" y1="34.04" x2="13.335" y2="34.00425" width="0.254" layer="16"/>
 <via x="21.355" y="13.6875" extent="1-16" drill="0.254"/>
 <wire x1="13.24" y1="34.04" x2="13.24" y2="32.26" width="0.254" layer="16"/>
 <wire x1="13.24" y1="32.26" x2="21.54" y2="23.96" width="0.254" layer="16"/>
@@ -2613,13 +2620,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,1,a915a8f38edd8f3b"/>
 <approved hash="19,1,968d938bb5a5b0a3"/>
 <approved hash="19,1,ee96eb9c3db238b8"/>
-<approved hash="19,1,ed92efb5c19bc3bc"/>
-<approved hash="19,1,2d912fb0519e53bf"/>
-<approved hash="19,1,ed92efb6f198f3bc"/>
 <approved hash="19,1,a92a4cf2719c131d"/>
 <approved hash="19,1,2c502d81e3afe27e"/>
-<approved hash="19,1,907291968fb88e5c"/>
-<approved hash="19,1,10731190dfbede5d"/>
 <approved hash="19,1,107d119ccfb2ce53"/>
 <approved hash="19,1,6c5d6d8cb3a2b273"/>
 <approved hash="19,1,6c516d81a3afa27f"/>
@@ -2628,7 +2630,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,1,505151b00f9e0e7f"/>
 <approved hash="19,1,507051919fbf9e5e"/>
 <approved hash="19,1,12131617c839cc3d"/>
-<approved hash="19,1,10731197cfb9ce5d"/>
 <approved hash="19,1,52115610283e2c3f"/>
 <approved hash="19,1,9212961688388c3c"/>
 <approved hash="19,1,5073518e2fa02e5d"/>
@@ -2644,16 +2645,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,16,d353d0700e5e0d7d"/>
 <approved hash="19,16,d113d1f00fde0f3d"/>
 <approved hash="19,16,d053d1b00f9e0e7d"/>
-<approved hash="19,16,10731197cfb9ce5d"/>
 <approved hash="19,16,2c502d81e3afe27e"/>
 <approved hash="19,16,6c516d81a3afa27f"/>
 <approved hash="19,16,6c5d6d8cb3a2b273"/>
-<approved hash="19,16,10731190dfbede5d"/>
-<approved hash="19,16,907291968fb88e5c"/>
-<approved hash="19,16,ed92efb5c19bc3bc"/>
 <approved hash="19,16,92529ee680c88c7c"/>
-<approved hash="19,16,2d912fb0519e53bf"/>
-<approved hash="19,16,ed92efb6f198f3bc"/>
 <approved hash="19,16,507051919fbf9e5e"/>
 <approved hash="19,16,535150700e5e0d7f"/>
 <approved hash="19,16,511151f00fde0f3f"/>
@@ -2662,6 +2657,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,16,52115610283e2c3f"/>
 <approved hash="19,16,9212961688388c3c"/>
 <approved hash="19,16,5073518e2fa02e5d"/>
+<approved hash="19,1,d692db91adbfa0bc"/>
+<approved hash="19,1,8e1e8112b73cb830"/>
+<approved hash="19,1,119f1093cebdcfb1"/>
+<approved hash="19,1,285529845faa5e7b"/>
+<approved hash="19,1,68536987bfa9be7d"/>
+<approved hash="19,1,9ef3e394c5bab8dd"/>
+<approved hash="19,16,9ef3e394c5bab8dd"/>
+<approved hash="19,16,68536987bfa9be7d"/>
+<approved hash="19,16,285529845faa5e7b"/>
+<approved hash="19,16,8e1e8112b73cb830"/>
+<approved hash="19,16,d692db91adbfa0bc"/>
+<approved hash="19,16,119f1093cebdcfb1"/>
 </errors>
 </board>
 </drawing>
