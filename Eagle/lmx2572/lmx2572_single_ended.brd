@@ -3,12 +3,12 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.02" unitdist="mm" unit="mm" style="lines" multiple="5" display="yes" altdistance="2" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -213,6 +213,9 @@
 <text x="9.6" y="31.8" size="0.8" layer="25" rot="R180">SYNC</text>
 <wire x1="7.82" y1="15.34" x2="7.82" y2="11.46" width="1.27" layer="29"/>
 <wire x1="7.82" y1="11.46" x2="7.74" y2="11.38" width="1.27" layer="29"/>
+<text x="24.58" y="26.48" size="1" layer="16" rot="MR0">LMX2572
+VCC = 3V3
+KG7ZVV</text>
 </plain>
 <libraries>
 <library name="J-Cinch-142-0701-851-SMA-end-launch">
@@ -1842,13 +1845,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="9.982" y="20.464" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="C10" library="oresat-rcl" package=".0603-B-NOSILK" value="10uF" x="24.26" y="25.026" smashed="yes" rot="R90">
-<attribute name="NAME" x="25.098" y="22.626" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="25.098" y="22.566" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="C11" library="oresat-rcl" package=".0603-B-NOSILK" value="0.1uF" x="29.356" y="20.968" smashed="yes">
 <attribute name="NAME" x="26.756" y="20.33" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
 <element name="C12" library="oresat-rcl" package=".0603-B-NOSILK" value="10nF" x="15.224" y="25.026" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.462" y="25.026" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="14.142" y="25.346" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="C13" library="oresat-rcl" package=".0603-B-NOSILK" value="0.1uF" x="8.25" y="28.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.65" y="28.798" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -1863,10 +1866,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="5.946" y="25.598" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="C17" library="oresat-rcl" package=".0603-B-NOSILK" value="0.1uF" x="26.056" y="11.96" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.218" y="9.36" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="NAME" x="26.838" y="9.8" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 </element>
 <element name="C2" library="oresat-rcl" package=".0603-B-NOSILK" value="1.0uF" x="13.192" y="13.528" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.792" y="13.366" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="10.132" y="13.546" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="C22" library="oresat-rcl" package=".0402-C-NOSILK" value="0.1uF" x="13.34" y="17.194" smashed="yes">
 <attribute name="NAME" x="12.14" y="17.956" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -1885,7 +1888,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="C27" library="oresat-rcl" package=".0402-C-NOSILK" value="4.7nf" x="20.974" y="24.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.244" y="25.054" size="0.635" layer="33" ratio="10" rot="R180"/>
-<attribute name="NAME" x="20.044" y="25.911" size="0.6096" layer="25" ratio="11" rot="R180"/>
+<attribute name="NAME" x="21.644" y="26.391" size="0.6096" layer="25" ratio="11" rot="R180"/>
 </element>
 <element name="C28" library="oresat-rcl" package=".0402-C-NOSILK" value="220nf" x="18.018" y="12.346" smashed="yes" rot="R90">
 <attribute name="NAME" x="16.748" y="12.092" size="0.635" layer="33" ratio="10"/>
@@ -1898,10 +1901,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="27.156" y="18.936" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 </element>
 <element name="C5" library="oresat-rcl" package=".0603-B-NOSILK" value="1.0uF" x="16.818" y="25.026" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.056" y="22.826" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="16.596" y="28.006" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="C6" library="oresat-rcl" package=".0603-B-NOSILK" value="1.0uF" x="13.186" y="15.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="10.786" y="15.338" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="NAME" x="10.086" y="15.018" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="C7" library="oresat-rcl" package=".0603-B-NOSILK" value="0.1uF" x="8.34" y="23.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="5.74" y="23.998" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -1916,7 +1919,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="33.422" y="10.63" size="0.8" layer="25" font="vector"/>
 </element>
 <element name="RF_B" library="J-Cinch-142-0701-851-SMA-end-launch" package="142-0701-851" value="142-0701-851" x="22.498" y="0.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="16.148" y="2.74" size="0.8" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="15.988" y="3.46" size="0.8" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="OSC_IN" library="J-Cinch-142-0701-851-SMA-end-launch" package="142-0701-851" value="142-0701-851" x="0.02" y="17.212" smashed="yes" rot="R90">
 <attribute name="NAME" x="4.36" y="11.362" size="0.8" layer="25" font="vector" rot="R180"/>
@@ -1934,7 +1937,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="28.985" y="6.931" size="1.27" layer="27"/>
 </element>
 <element name="R2" library="oresat-rcl" package=".0402-C-NOSILK" value="50" x="10.258" y="16.776" smashed="yes" rot="R90">
-<attribute name="NAME" x="9.496" y="16.776" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="10.116" y="18.496" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 </element>
 <element name="R3" library="oresat-rcl" package=".0603-B-NOSILK" value="330" x="24.356" y="12.09" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.518" y="9.69" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -1960,12 +1963,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="9.09" y="16.12" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R7" library="oresat-rcl" package=".0402-C-NOSILK" value="0" x="7.38" y="17.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="8.18" y="18.49" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="8.24" y="18.69" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="NAME" x="7.38" y="17.24" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="8.08" y="18.49" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C18" library="oresat-rcl" package=".0603-B-NOSILK" value="10uF" x="8.6" y="3.9" smashed="yes">
-<attribute name="NAME" x="7.4" y="4.7" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="8.58" y="4.82" size="0.8" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="8.6" y="3.9" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="7.4" y="2.3" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
@@ -2673,6 +2676,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
