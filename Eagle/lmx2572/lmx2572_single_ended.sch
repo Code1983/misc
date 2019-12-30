@@ -9594,7 +9594,7 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <classes>
 <class number="0" name="default" width="0.254" drill="0">
 </class>
-<class number="1" name="Power" width="0.4064" drill="0">
+<class number="1" name="Power" width="0" drill="0">
 </class>
 <class number="2" name="RF" width="0.38" drill="0">
 <clearance class="2" value="0.6"/>
