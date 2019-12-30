@@ -213,8 +213,8 @@
 <text x="9.6" y="31.8" size="0.8" layer="25" rot="R180">SYNC</text>
 <wire x1="7.82" y1="15.34" x2="7.82" y2="11.46" width="1.27" layer="29"/>
 <wire x1="7.82" y1="11.46" x2="7.74" y2="11.38" width="1.27" layer="29"/>
-<text x="24.58" y="26.48" size="1" layer="16" rot="MR0">LMX2572
-VCC = 3V3
+<text x="26.16" y="25.78" size="1" layer="26" rot="MR0">LMX2572
+VCC - 3V3
 KG7ZVV</text>
 </plain>
 <libraries>
