@@ -189,7 +189,7 @@
 <library name="QFN50P600X600X100-41N">
 <packages>
 <package name="LMX2572_QFN">
-<rectangle x1="-1.6441375" y1="-1.6441375" x2="1.147" y2="1.147" layer="31"/>
+<rectangle x1="-1.341621875" y1="-1.393440625" x2="1.449515625" y2="1.397696875" layer="31"/>
 <text x="-5.63186875" y="-6.583390625" size="1.803840625" layer="27" align="top-left">&gt;VALUE</text>
 <text x="-5.552359375" y="6.49063125" size="1.778359375" layer="25">&gt;NAME</text>
 <circle x="-3.83" y="2.51" radius="0.2" width="0" layer="21"/>
@@ -9646,7 +9646,7 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SYS_REF" library="J-Cinch-142-0701-851-SMA-end-launch" deviceset="142-0701-851" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="PLL_LOCK" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
+<part name="PLL" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="330"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C23" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100PF"/>
@@ -9675,6 +9675,11 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <part name="R7" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="0"/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C18" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="10uF"/>
+<part name="R8" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="0"/>
+<part name="PWR" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
+<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="330"/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9818,7 +9823,7 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <instance part="SUPPLY24" gate="GND" x="157.48" y="185.42" smashed="yes">
 <attribute name="VALUE" x="155.575" y="182.245" size="1.778" layer="96"/>
 </instance>
-<instance part="PLL_LOCK" gate="G$1" x="121.92" y="200.66" smashed="yes" rot="R270">
+<instance part="PLL" gate="G$1" x="121.92" y="200.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="117.348" y="197.104" size="1.778" layer="95"/>
 <attribute name="VALUE" x="117.348" y="194.945" size="1.778" layer="96"/>
 </instance>
@@ -9893,8 +9898,8 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <instance part="SUPPLY20" gate="GND" x="154.94" y="48.26" smashed="yes">
 <attribute name="VALUE" x="153.035" y="45.085" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="VCC" x="121.92" y="86.36" smashed="yes">
-<attribute name="VALUE" x="119.38" y="83.82" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="VCC" x="104.14" y="93.98" smashed="yes">
+<attribute name="VALUE" x="101.6" y="91.44" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R1" gate="R" x="152.4" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="150.876" y="106.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -9902,11 +9907,27 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <instance part="R7" gate="R" x="142.24" y="111.76" smashed="yes" rot="R180">
 <attribute name="NAME" x="142.24" y="110.236" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY21" gate="GND" x="121.92" y="48.26" smashed="yes">
-<attribute name="VALUE" x="120.015" y="45.085" size="1.778" layer="96"/>
+<instance part="SUPPLY21" gate="GND" x="104.14" y="48.26" smashed="yes">
+<attribute name="VALUE" x="102.235" y="45.085" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="CE" x="121.92" y="60.96" smashed="yes">
-<attribute name="NAME" x="123.444" y="63.881" size="1.778" layer="95" font="vector"/>
+<instance part="C18" gate="CE" x="104.14" y="58.42" smashed="yes">
+<attribute name="NAME" x="105.664" y="61.341" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="R8" gate="R" x="109.22" y="76.2" smashed="yes" rot="R180">
+<attribute name="NAME" x="109.22" y="74.676" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="PWR" gate="G$1" x="228.6" y="68.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.172" y="72.136" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="233.172" y="74.295" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R9" gate="R" x="213.36" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="213.36" y="67.056" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="P+4" gate="VCC" x="200.66" y="76.2" smashed="yes">
+<attribute name="VALUE" x="198.12" y="73.66" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY23" gate="GND" x="243.84" y="60.96" smashed="yes">
+<attribute name="VALUE" x="241.935" y="57.785" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10042,7 +10063,7 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <wire x1="144.78" y1="187.96" x2="157.48" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PLL_LOCK" gate="G$1" pin="C"/>
+<pinref part="PLL" gate="G$1" pin="C"/>
 <pinref part="SUPPLY25" gate="GND" pin="GND"/>
 <wire x1="116.84" y1="200.66" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="200.66" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
@@ -10101,7 +10122,13 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <segment>
 <pinref part="C18" gate="CE" pin="2"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
-<wire x1="121.92" y1="50.8" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="50.8" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWR" gate="G$1" pin="C"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<wire x1="233.68" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="68.58" x2="243.84" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -10238,12 +10265,17 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 </segment>
 <segment>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
-<pinref part="X1" gate="G$1" pin="VDD"/>
-<wire x1="121.92" y1="83.82" x2="121.92" y2="77.47" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="77.47" x2="128.27" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="R8" gate="R" pin="2"/>
+<wire x1="104.14" y1="91.44" x2="104.14" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C18" gate="CE" pin="1"/>
-<wire x1="121.92" y1="83.82" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
-<junction x="121.92" y="83.82"/>
+<wire x1="104.14" y1="76.2" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<junction x="104.14" y="76.2"/>
+</segment>
+<segment>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+<pinref part="R9" gate="R" pin="2"/>
+<wire x1="200.66" y1="73.66" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="2">
@@ -10255,7 +10287,7 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="PLL_LOCK" gate="G$1" pin="A"/>
+<pinref part="PLL" gate="G$1" pin="A"/>
 <pinref part="R3" gate="R" pin="2"/>
 <wire x1="124.46" y1="200.66" x2="132.08" y2="200.66" width="0.1524" layer="91"/>
 </segment>
@@ -10470,14 +10502,30 @@ Source: &lt;a href="https://ecsxtal.com/store/pdf/ECS-TXO-3225.pdf"&gt;Datasheet
 <wire x1="152.4" y1="77.47" x2="152.4" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R8" gate="R" pin="1"/>
+<pinref part="X1" gate="G$1" pin="VDD"/>
+<wire x1="114.3" y1="76.2" x2="114.3" y2="77.47" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="77.47" x2="128.27" y2="77.47" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R9" gate="R" pin="1"/>
+<pinref part="PWR" gate="G$1" pin="A"/>
+<wire x1="218.44" y1="68.58" x2="226.06" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,128.27,77.47,X1,VDD,VCC,,,"/>
+<approved hash="104,1,128.27,77.47,X1,VDD,N$10,,,"/>
 <approved hash="202,1,128.27,69.85,X1,VCTRL,,,,"/>
 <approved hash="113,1,121.667,200.338,PLL_LOCK,,,,,"/>
 <approved hash="113,1,310.117,120.876,JP1,,,,,"/>
+<approved hash="113,1,229.87,68.9017,POWER,,,,,"/>
 </errors>
 </schematic>
 </drawing>
