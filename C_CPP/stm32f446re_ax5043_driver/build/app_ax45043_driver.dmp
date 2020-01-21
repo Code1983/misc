@@ -1,0 +1,1491 @@
+
+build/app_ax45043_driver.elf:     file format elf32-littlearm
+build/app_ax45043_driver.elf
+architecture: armv7e-m, flags 0x00000112:
+EXEC_P, HAS_SYMS, D_PAGED
+start address 0x080002b9
+
+Program Header:
+    LOAD off    0x00010000 vaddr 0x08000000 paddr 0x08000000 align 2**16
+         filesz 0x00003584 memsz 0x00003584 flags r-x
+    LOAD off    0x00020800 vaddr 0x20000800 paddr 0x08003584 align 2**16
+         filesz 0x000003fc memsz 0x000003fc flags rw-
+    LOAD off    0x00020c00 vaddr 0x20000c00 paddr 0x08003980 align 2**16
+         filesz 0x00000000 memsz 0x00000610 flags rw-
+    LOAD off    0x00030000 vaddr 0x20000000 paddr 0x20000000 align 2**16
+         filesz 0x00000000 memsz 0x00020000 flags rw-
+private flags = 5000200: [Version5 EABI] [soft-float ABI]
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .mstack       00000400  20000000  20000000  00030000  2**0
+                  ALLOC
+  1 .pstack       00000400  20000400  20000400  00030000  2**0
+                  ALLOC
+  2 .vectors      000001e0  08000000  08000000  00010000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .text         00003074  080001e0  080001e0  000101e0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .rodata       00000330  08003254  08003254  00013254  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 .data         000003fc  20000800  08003584  00020800  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000610  20000c00  08003980  00020c00  2**3
+                  ALLOC
+  7 .ram0_init    00000000  20001210  20001210  00020bfc  2**2
+                  CONTENTS
+  8 .ram0         00000000  20001210  20001210  00020bfc  2**2
+                  CONTENTS
+  9 .ram1_init    00000000  20000000  20000000  00020bfc  2**2
+                  CONTENTS
+ 10 .ram1         00000000  20000000  20000000  00020bfc  2**2
+                  CONTENTS
+ 11 .ram2_init    00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 12 .ram2         00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 13 .ram3_init    00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 14 .ram3         00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 15 .ram4_init    00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 16 .ram4         00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 17 .ram5_init    00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 18 .ram5         00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 19 .ram6_init    00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 20 .ram6         00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 21 .ram7_init    00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 22 .ram7         00000000  00000000  00000000  00020bfc  2**2
+                  CONTENTS
+ 23 .heap         0001edf0  20001210  20001210  00030000  2**0
+                  ALLOC
+ 24 .ARM.attributes 0000002f  00000000  00000000  00020bfc  2**0
+                  CONTENTS, READONLY
+ 25 .comment      0000001d  00000000  00000000  00020c2b  2**0
+                  CONTENTS, READONLY
+ 26 .debug_line   0000eda5  00000000  00000000  00020c48  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 27 .debug_info   000374cb  00000000  00000000  0002f9ed  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .debug_abbrev 00005c4b  00000000  00000000  00066eb8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 29 .debug_aranges 00000578  00000000  00000000  0006cb08  2**3
+                  CONTENTS, READONLY, DEBUGGING
+ 30 .debug_str    00004874  00000000  00000000  0006d080  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .debug_loc    000050e8  00000000  00000000  000718f4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 32 .debug_ranges 000017d0  00000000  00000000  000769dc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 33 .debug_frame  00000fa4  00000000  00000000  000781ac  2**2
+                  CONTENTS, READONLY, DEBUGGING
+SYMBOL TABLE:
+20000000 l    d  .mstack	00000000 .mstack
+20000400 l    d  .pstack	00000000 .pstack
+08000000 l    d  .vectors	00000000 .vectors
+080001e0 l    d  .text	00000000 .text
+08003254 l    d  .rodata	00000000 .rodata
+20000800 l    d  .data	00000000 .data
+20000c00 l    d  .bss	00000000 .bss
+20001210 l    d  .ram0_init	00000000 .ram0_init
+20001210 l    d  .ram0	00000000 .ram0
+20000000 l    d  .ram1_init	00000000 .ram1_init
+20000000 l    d  .ram1	00000000 .ram1
+00000000 l    d  .ram2_init	00000000 .ram2_init
+00000000 l    d  .ram2	00000000 .ram2
+00000000 l    d  .ram3_init	00000000 .ram3_init
+00000000 l    d  .ram3	00000000 .ram3
+00000000 l    d  .ram4_init	00000000 .ram4_init
+00000000 l    d  .ram4	00000000 .ram4
+00000000 l    d  .ram5_init	00000000 .ram5_init
+00000000 l    d  .ram5	00000000 .ram5
+00000000 l    d  .ram6_init	00000000 .ram6_init
+00000000 l    d  .ram6	00000000 .ram6
+00000000 l    d  .ram7_init	00000000 .ram7_init
+00000000 l    d  .ram7	00000000 .ram7
+20001210 l    d  .heap	00000000 .heap
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_loc	00000000 .debug_loc
+00000000 l    d  .debug_ranges	00000000 .debug_ranges
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 ./build/obj/vectors.o
+080002be l       .text	00000000 .stay
+00000000 l    df *ABS*	00000000 ./build/obj/crt0_v7m.o
+08000214 l       .text	00000000 msloop
+08000222 l       .text	00000000 psloop
+08000232 l       .text	00000000 dloop
+08000246 l       .text	00000000 bloop
+0800025c l       .text	00000000 initloop
+08000268 l       .text	00000000 endinitloop
+08000270 l       .text	00000000 finiloop
+0800027c l       .text	00000000 endfiniloop
+00000000 l    df *ABS*	00000000 ./build/obj/chcoreasm_v7m.o
+080002e0 l       .text	00000000 _zombies
+00000000 l    df *ABS*	00000000 lib_a-memcpy.o
+00000000 l    df *ABS*	00000000 
+08000420 l     F .text	0000004a long_to_string_with_divisor
+08000470 l     F .text	0000000a ch_ltoa
+08000480 l     F .text	0000026c chvprintf
+080006f0 l     F .text	00000010 ax5043ObjectInit
+08000700 l     F .text	0000002e ax5043_set_conf_val
+08000730 l     F .text	0000002c ax5043_get_conf_val
+08000760 l     F .text	0000004c port_init
+080007b0 l     F .text	00000010 chPoolObjectInitAligned
+080007c0 l     F .text	0000002c chCoreAllocFromTopI
+080007f0 l     F .text	0000000a chCoreAllocAlignedI
+08000800 l     F .text	00000014 chCoreAllocFromTop
+08000820 l     F .text	00000018 _core_init
+08000840 l     F .text	00000024 chMBObjectInit
+08000870 l     F .text	0000000a chMtxObjectInit
+08000880 l     F .text	00000054 _factory_init
+080008e0 l     F .text	00000020 _heap_init
+08000900 l     F .text	00000044 chTMStopMeasurementX
+08000950 l     F .text	0000000c chTMStartMeasurementX
+08000960 l     F .text	00000018 chTMObjectInit
+08000980 l     F .text	00000028 _tm_init
+080009b0 l     F .text	00000040 _thread_init
+080009f0 l     F .text	00000038 chThdCreateSuspendedI
+08000a30 l     F .text	00000018 chSchIsPreemptionRequired
+08000a50 l     F .text	00000048 _port_irq_epilogue
+08000aa0 l     F .text	00000024 chSchReadyAheadI
+08000ad0 l     F .text	00000024 chSchReadyI
+08000b00 l     F .text	0000002e chEvtSignalI
+08000b30 l     F .text	0000002c chEvtBroadcastFlagsI
+08000b60 l     F .text	0000001c chThdDequeueAllI
+08000b80 l     F .text	00000018 chThdDequeueNextI
+08000ba0 l     F .text	00000014 chThdResumeI
+08000bc0 l     F .text	00000050 wakeup
+08000c10 l     F .text	00000014 _scheduler_init
+08000c30 l     F .text	0000001c _vt_init
+08000c50 l     F .text	0000000c chSysHalt
+08000c60 l     F .text	00000002 _idle_thread
+08000c70 l     F .text	0000001e gpio_init
+08000c90 l     F .text	000000a4 stm32_gpio_init
+08000d40 l     F .text	00000010 notify2
+08000d50 l     F .text	00000036 set_error
+08000d90 l     F .text	0000008c usart_init
+08000e20 l     F .text	0000004e spi_lld_exchange
+08000e70 l     F .text	000000cc spi_lld_serve_rx_interrupt
+08000f40 l     F .text	00000014 spi_lld_serve_tx_interrupt
+08000f60 l     F .text	00000080 _pal_lld_enablepadevent
+08000fe0 l     F .text	0000001c _pal_lld_init
+08001000 l     F .text	00000044 dmaInit
+08001050 l     F .text	0000018c stm32_clock_init
+080011e0 l     F .text	00000038 hal_lld_backup_domain_init
+08001220 l     F .text	00000028 nvicEnableVector
+08001250 l     F .text	0000004c sd_lld_start
+080012a0 l     F .text	00000054 st_lld_init
+08001300 l     F .text	000000c8 dmaStreamAllocI
+080013d0 l     F .text	00000130 spi_lld_start
+08001500 l     F .text	0000003c irqInit
+08001540 l     F .text	00000064 hal_lld_init
+080015b0 l     F .text	00000018 spiStartExchange
+080015d0 l     F .text	0000001c spiUnselect
+080015f0 l     F .text	0000001c spiSelect
+08001610 l     F .text	00000074 ax5043_read_reg
+08001690 l     F .text	00000080 axradio_get_pllvcoi
+08001710 l     F .text	00000040 ax5043_readfifo
+08001750 l     F .text	000001f0 receive_loop
+08001940 l     F .text	00000078 ax5043_write_reg
+080019c0 l     F .text	00000080 ax5043_init_registers_common
+08001a40 l     F .text	0000005c ax5043_set_regs_group
+08001aa0 l     F .text	00000048 ax5043_set_pwrmode
+08001af0 l     F .text	000000d4 ax5043_prepare_cw
+08001bd0 l     F .text	0000009c ax5043_prepare_rx
+08001c70 l     F .text	0000001c spiStart
+08001c90 l     F .text	00000014 spiObjectInit
+08001cb0 l     F .text	00000050 spi_lld_init
+08001d00 l     F .text	00000008 spiInit
+08001d10 l     F .text	0000001a sdStart
+08001d30 l     F .text	00000004 _ctl
+08001d40 l     F .text	0000003e oqGetI
+08001d80 l     F .text	00000018 oqObjectInit
+08001da0 l     F .text	00000040 iqPutI
+08001de0 l     F .text	00000030 sdIncomingDataI
+08001e10 l     F .text	000000ec serve_interrupt
+08001f00 l     F .text	0000001e iqObjectInit
+08001f20 l     F .text	00000040 sdObjectInit
+08001f60 l     F .text	00000020 sd_lld_init
+08001f80 l     F .text	00000008 sdInit
+08001f90 l     F .text	00000008 stGetCounter
+08001fa0 l     F .text	00000008 stSetAlarm
+08001fb0 l     F .text	0000000a stStopAlarm
+08001fc0 l     F .text	00000084 chVTDoResetI
+08002050 l     F .text	00000090 chSysTimerHandlerI
+080020e0 l     F .text	0000002c st_lld_serve_interrupt
+08002110 l     F .text	00000010 stStartAlarm
+08002120 l     F .text	00000088 chVTDoSetI
+080021b0 l     F .text	00000008 stInit
+080021c0 l     F .text	00000018 halInit
+080021e0 l     F .text	0000001c chprintf
+08002200 l     F .text	00000038 chSchWakeupS
+08002240 l     F .text	0000001e chThdCreate
+08002260 l     F .text	00000054 chSysInit
+080022c0 l     F .text	00000024 chSchGoSleepS
+080022f0 l     F .text	00000044 chThdExitS
+08002340 l     F .text	00000040 chSchGoSleepTimeoutS
+08002380 l     F .text	00000024 chThdEnqueueTimeoutS
+080023b0 l     F .text	00000018 palWaitLineTimeoutS
+080023d0 l     F .text	00000014 palWaitLineTimeout
+080023f0 l     F .text	00000050 oqPutTimeout
+08002440 l     F .text	0000000a _putt
+08002450 l     F .text	0000000e _put
+08002460 l     F .text	0000004e iqGetTimeout
+080024b0 l     F .text	0000000a _gett
+080024c0 l     F .text	0000000e _get
+080024d0 l     F .text	00000018 chThdSleep
+080024f0 l     F .text	0000007c main_loop
+08002570 l     F .text	00000094 ax5043_prepare_tx
+08002610 l     F .text	000000bc ax5043_reset
+080026d0 l     F .text	000001b4 ax5043_init
+08002890 l     F .text	00000056 ax5043Start
+080028f0 l     F .text	00000060 app_init
+08002950 l     F .text	00000066 oq_write
+080029c0 l     F .text	00000062 oqWriteTimeout
+08002a30 l     F .text	0000000a _writet
+08002a40 l     F .text	0000000e _write
+08002a50 l     F .text	00000066 iq_read
+08002ac0 l     F .text	00000062 iqReadTimeout
+08002b30 l     F .text	0000000a _readt
+08002b40 l     F .text	0000000e _read
+20000c00 l     O .bss	0000007c SD2
+20000c7c l     O .bss	00000030 SPID1
+20000cac l     O .bss	00000030 SPID2
+20000cdc l     O .bss	00000080 _pal_events
+20000d5c l     O .bss	0000010c axd1
+20000e68 l     O .bss	00000100 axradio_rxbuffer
+20000f68 l     O .bss	00000078 ch
+20000fe0 l     O .bss	00000048 ch_factory
+20001028 l     O .bss	000000d8 ch_idle_thread_wa
+20001100 l     O .bss	00000008 ch_memcore
+20001108 l     O .bss	0000001c default_heap
+20001124 l     O .bss	00000084 dma
+200011a8 l     O .bss	00000028 radio1_rx_mb
+200011d0 l     O .bss	00000040 radio1_rx_queue
+20000800 l     O .data	00000018 axcfg1
+20000990 l     O .data	00000260 reg_values
+20000818 l     O .data	00000178 conf_values
+20000bf0 l     O .data	0000000c ser_cfg
+080032d4 l     O .rodata	000000c0 _stm32_dma_streams
+08003394 l     O .rodata	00000016 ch_debug
+080033ac l     O .rodata	0000000c default_config
+080033b8 l     O .rodata	000000e0 gpio_default_config
+08003498 l     O .rodata	00000018 idle_descriptor.7244
+080034b0 l     O .rodata	00000080 ram_areas
+08003530 l     O .rodata	00000014 spicfg_rx
+08003544 l     O .rodata	00000014 spicfg_tx
+08003558 l     O .rodata	00000028 vmt
+08003580 l     O .rodata	00000004 vmt_device
+00000000 l    df *ABS*	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+0000798a l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00007ce7 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00008ff1 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+0000a558 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+0000c8a0 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+0000ea01 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+000100ce l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+0001168b l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00012e6b l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00014657 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00015ccd l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+000173b9 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00018b9e l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+0001a4f2 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+0001bb8b l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+0001d3b1 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+0001eafb l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+0002023e l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00021883 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00022879 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00023479 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+000241c6 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+000254a2 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+0002617f l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+000275b4 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00028364 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+000292fc l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+0002a003 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+0002af05 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+0002bb33 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+0002c857 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+0002d630 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+0002e489 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+0003016a l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00031ce4 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00034519 l       .debug_info	00000000 
+00000000 l    df *ABS*	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+00035c00 l       .debug_info	00000000 
+080031b0 g     F .text	00000038 Vector58
+080002ba  w    F .text	00000000 VectorE8
+08002ff0 g     F .text	000000bc Vector9C
+00028364  w      .debug_info	00000000 .hidden chevents.c.d515f053
+00000000 g       .bss	00000000 __flash3_base__
+00000000 g       *ABS*	00000000 __flash1_end__
+080002ba  w    F .text	00000000 VectorAC
+08002b90 g     F .text	0000000e chThdExit
+00000000 g       .ram7	00000000 __flash6_free__
+00000000 g       .bss	00000000 __flash7_base__
+080002ba  w    F .text	00000000 DebugMon_Handler
+08080000 g       *ABS*	00000000 __flash0_end__
+0002e489  w      .debug_info	00000000 .hidden chfactory.c.ff1e9219
+080002ba  w    F .text	00000000 Vector1A0
+00000000 g       .ram7	00000000 __flash7_free__
+08003170 g     F .text	00000038 Vector5C
+00015ccd  w      .debug_info	00000000 .hidden stm32_isr.c.eb59e5d2
+080002ba  w    F .text	00000000 Vector11C
+00000000 g       .ram5	00000000 __ram5_clear__
+00000000 g       .bss	00000000 __flash2_base__
+080002ba  w    F .text	00000000 HardFault_Handler
+080002ba  w    F .text	00000000 Vector1B8
+080002ba  w    F .text	00000000 Vector19C
+20001210 g       .ram0_init	00000000 __ram0_init__
+0000798a  w      .debug_info	00000000 .hidden crt1.c.d8f913d0
+0002c857  w      .debug_info	00000000 .hidden chmempools.c.3a7cef05
+080002ba  w    F .text	00000000 Vector8C
+080002ba  w    F .text	00000000 SysTick_Handler
+000292fc  w      .debug_info	00000000 .hidden chdynamic.c.20279aa4
+080001e0 g       .text	00000000 __init_array_base__
+20000000 g       .ram1	00000000 __ram1_free__
+080002ba  w    F .text	00000000 VectorDC
+00000000 g       .bss	00000000 __ram3_base__
+080002ba  w    F .text	00000000 PendSV_Handler
+080002ba  w    F .text	00000000 Vector168
+080002ba  w    F .text	00000000 NMI_Handler
+00008ff1  w      .debug_info	00000000 .hidden hal_st.c.71bbe6ea
+08000000 g       .vectors	00000000 _vectors
+080002ba  w    F .text	00000000 Vector110
+08003254 g       .text	00000000 __text_end__
+20001210 g       .ram0	00000000 __ram0_free__
+20001210 g       .heap	00000000 __heap_base__
+08002d60 g     F .text	00000028 Vector120
+080002ba  w    F .text	00000000 Vector1D8
+080002ba  w    F .text	00000000 VectorC8
+08003980 g       *ABS*	00000000 __ram3_init_text__
+080002ba  w    F .text	00000000 Vector94
+00000000 g       *ABS*	00000000 __ram5_end__
+000241c6  w      .debug_info	00000000 .hidden chthreads.c.281804cf
+00000000 g       .ram5	00000000 __ram5_noinit__
+00000000 g       .ram7	00000000 __flash1_free__
+00000000 g       *ABS*	00000000 __ram5_size__
+080002ba  w    F .text	00000000 VectorA8
+00034519  w      .debug_info	00000000 .hidden chprintf.c.0801c3ea
+080002ec g     F .text	00000134 memcpy
+080002ba  w    F .text	00000000 VectorB4
+00000000 g       *ABS*	00000000 __flash7_size__
+0000c8a0  w      .debug_info	00000000 .hidden hal_queues.c.2dec4344
+00000000 g       .bss	00000000 __ram6_base__
+20000800 g       .pstack	00000000 __main_thread_stack_end__
+08003584 g       .rodata	00000000 __rodata_end__
+080001e0 g     F .text	00000000 _crt0_entry
+08002e80 g     F .text	0000002c Vector74
+080002ba  w    F .text	00000000 Vector160
+080002ba  w    F .text	00000000 Vector1B0
+080002ba  w    F .text	00000000 UsageFault_Handler
+080002ba  w    F .text	00000000 VectorEC
+00000000 g       .ram7	00000000 __flash4_free__
+20020000 g       .heap	00000000 __heap_end__
+00012e6b  w      .debug_info	00000000 .hidden hal_spi.c.84a78f9e
+00021883  w      .debug_info	00000000 .hidden chsys.c.a3d509ab
+0001c000 g       *ABS*	00000000 __ram1_size__
+080002ba  w    F .text	00000000 Vector40
+080002ba  w    F .text	00000000 VectorF8
+080002ba  w    F .text	00000000 Vector108
+0001eafb  w      .debug_info	00000000 .hidden hal_serial_lld.c.2e314d42
+080002ba  w    F .text	00000000 VectorBC
+080002ba  w    F .text	00000000 Vector190
+00000000 g       .ram7	00000000 __flash3_free__
+08002c70 g     F .text	0000002c Vector150
+20000000 g       .ram1	00000000 __ram1_clear__
+08002d30 g     F .text	0000002c Vector124
+080001e0 g       .text	00000000 __init_array_end__
+00000000 g       .ram7	00000000 __ram7_free__
+00000000 g       *ABS*	00000000 __ram4_size__
+080002ba  w    F .text	00000000 Vector1C4
+080002ba  w    F .text	00000000 Vector1CC
+2001c000 g       *ABS*	00000000 __ram1_end__
+00000000 g       *ABS*	00000000 __ram4_end__
+08003584 g       *ABS*	00000000 __textdata_base__
+08003980 g       *ABS*	00000000 __ram0_init_text__
+08003980 g       *ABS*	00000000 __ram1_init_text__
+00000000 g       *ABS*	00000000 __flash5_end__
+00000000 g       .ram7	00000000 __flash2_free__
+080002ba  w    F .text	00000000 Vector148
+080002ba  w    F .text	00000000 Vector188
+0002d630  w      .debug_info	00000000 .hidden chdelegates.c.fc5ccfe2
+00020000 g       *ABS*	00000000 __ram0_size__
+00000000 g       *ABS*	00000000 __flash2_end__
+08003980 g       *ABS*	00000000 __ram5_init_text__
+00000000 g       *ABS*	00000000 __flash4_size__
+080002ba  w    F .text	00000000 Vector198
+080002ba  w    F .text	00000000 Vector118
+00000000 g       .ram7	00000000 __flash5_free__
+080030f0 g     F .text	00000038 Vector64
+080002b8  w    F .text	00000000 Reset_Handler
+080002ba  w    F .text	00000000 VectorCC
+080002ba  w    F .text	00000000 Vector54
+080002ba  w    F .text	00000000 Vector98
+00000000 g       .ram4	00000000 __ram4_clear__
+0001bb8b  w      .debug_info	00000000 .hidden hal_spi_lld.c.c678729c
+00000000 g       .bss	00000000 __flash4_base__
+00035c00  w      .debug_info	00000000 .hidden main.c.3a7dbc8d
+0002023e  w      .debug_info	00000000 .hidden board.c.01b10a37
+00000000 g       .ram5	00000000 __ram5_free__
+08002be0 g     F .text	00000014 VectorD8
+00000000 g       *ABS*	00000000 __flash6_end__
+08003980 g       *ABS*	00000000 __ram6_init_text__
+080002ba  w    F .text	00000000 Vector138
+080002ba  w    F .text	00000000 Vector24
+00000000 g       .ram3	00000000 __ram3_clear__
+08003230 g     F .text	00000002 __default_exit
+00000000 g       *ABS*	00000000 __ram6_end__
+00000000 g       .bss	00000000 __flash5_base__
+00000000 g       .ram6_init	00000000 __ram6_init__
+080002ba  w    F .text	00000000 Vector1AC
+08002ba0 g     F .text	00000028 chSchDoReschedule
+00000000 g       .ram7_init	00000000 __ram7_init__
+080002ba  w    F .text	00000000 Vector178
+00000000 g       .ram6	00000000 __ram6_free__
+08002dc0 g     F .text	0000002c Vector84
+00000000 g       .ram2	00000000 __ram2_noinit__
+20000bfc g       .data	00000000 __data_end__
+000275b4  w      .debug_info	00000000 .hidden chmtx.c.6562cf48
+08000000 g       .bss	00000000 __flash0_base__
+00000000 g       .ram6	00000000 __ram6_noinit__
+00000000 g       .ram4_init	00000000 __ram4_init__
+20000c00 g       .bss	00000000 __bss_base__
+080002ba  w    F .text	00000000 Vector1A4
+20001210 g       .bss	00000000 __bss_end__
+00000000 g       .ram7	00000000 __ram7_clear__
+0002af05  w      .debug_info	00000000 .hidden chmemcore.c.6e15a076
+08003980 g       .ram7	00000000 __flash0_init__
+080002ba  w    F .text	00000000 VectorD0
+00000000 g       *ABS*	00000000 __ram7_size__
+080002ba  w    F .text	00000000 Vector1B4
+080002ba  w    F .text	00000000 Vector140
+080002ba  w    F .text	00000000 VectorE4
+080002ba  w    F .text	00000000 VectorC0
+08002c10 g     F .text	0000002c Vector158
+08003980 g       .ram7	00000000 __flash0_free__
+08002ca0 g     F .text	00000028 Vector130
+080002c0 g     F .text	00000000 _port_switch
+00000000 g       .bss	00000000 __flash6_base__
+08003250 g     F .text	00000002 __core_init
+00000000 g       .ram4	00000000 __ram4_noinit__
+080002ba  w    F .text	00000000 Vector1C0
+080001e0 g       .text	00000000 __fini_array_end__
+000254a2  w      .debug_info	00000000 .hidden chtm.c.48628cd0
+08003240 g     F .text	00000002 __late_init
+080002ba  w    F .text	00000000 Vector134
+000100ce  w      .debug_info	00000000 .hidden hal_pal.c.8b4b1a54
+00000000 g       .ram6	00000000 __ram6_clear__
+080002ba  w    F .text	00000000 Vector1D0
+00000000 g       *ABS*	00000000 __flash3_end__
+00023479  w      .debug_info	00000000 .hidden chschd.c.49e791ab
+080002ba  w    F .text	00000000 VectorF0
+08002cd0 g     F .text	0000002c Vector12C
+080002ba  w    F .text	00000000 Vector13C
+0001a4f2  w      .debug_info	00000000 .hidden hal_pal_lld.c.914ddf03
+00000000 g       *ABS*	00000000 __ram3_size__
+080002ba  w    F .text	00000000 Vector100
+00018b9e  w      .debug_info	00000000 .hidden stm32_dma.c.a5c693a6
+00014657  w      .debug_info	00000000 .hidden nvic.c.533cc192
+08002f10 g     F .text	000000dc VectorE0
+080002ba  w    F .text	00000000 VectorF4
+00000000 g       .bss	00000000 __ram7_base__
+0003016a  w      .debug_info	00000000 .hidden chcore_v7m.c.a2840278
+00000000 g       .ram2	00000000 __ram2_clear__
+00000000 g       *ABS*	00000000 __ram3_end__
+00004000 g       *ABS*	00000000 __ram2_size__
+00007ce7  w      .debug_info	00000000 .hidden hal.c.75a29cf6
+08003254 g       .rodata	00000000 __rodata_base__
+00000000 g       *ABS*	00000000 __flash3_size__
+20000000 g       .bss	00000000 __ram1_base__
+080002ba  w    F .text	00000000 MemManage_Handler
+08002b50 g     F .text	0000001a main
+08002ee0 g     F .text	00000028 Vector6C
+00000000 g       *ABS*	00000000 __ram6_size__
+080001e0 g       .text	00000000 __fini_array_base__
+080002ba  w    F .text	00000000 VectorA0
+08003980 g       *ABS*	00000000 __ram2_init_text__
+00000000 g       *ABS*	00000000 __flash5_size__
+08002b70 g     F .text	00000012 SVC_Handler
+0002bb33  w      .debug_info	00000000 .hidden chmemheaps.c.6a58d9c2
+00000000 g       .ram3	00000000 __ram3_free__
+00031ce4  w      .debug_info	00000000 .hidden ax5043.c.19fb8783
+00000000 g       .ram7	00000000 __flash3_init__
+080002ba  w    F .text	00000000 VectorC4
+08002e20 g     F .text	00000028 Vector7C
+00000000 g       .ram7	00000000 __flash6_init__
+08003980 g       *ABS*	00000000 __ram4_init_text__
+080002ba  w    F .text	00000000 Vector180
+20000000 g       .ram1	00000000 __ram1_noinit__
+0002617f  w      .debug_info	00000000 .hidden chregistry.c.8e83456b
+08002c00 g     F .text	0000000c VectorB0
+080002ba  w    F .text	00000000 Vector90
+0001d3b1  w      .debug_info	00000000 .hidden hal_st_lld.c.f38b9d15
+08003584 g       .data	00000000 __exidx_end__
+080002ba  w    F .text	00000000 Vector114
+080002d0 g     F .text	00000000 _port_thread_start
+080002ba  w    F .text	00000000 Vector164
+08003130 g     F .text	00000038 Vector60
+080002ba  w    F .text	00000000 Vector1C
+080002ba  w    F .text	00000000 Vector1BC
+080002ba  w    F .text	00000000 Vector1D4
+00000000 g       *ABS*	00000000 __flash2_size__
+080002ba  w    F .text	00000000 Vector17C
+00000000 g       *ABS*	00000000 __flash4_end__
+00000000 g       .ram2_init	00000000 __ram2_init__
+080002ba  w    F .text	00000000 Vector48
+00004000 g       *ABS*	00000000 __ram2_end__
+0001168b  w      .debug_info	00000000 .hidden hal_serial.c.3a3518d6
+20000400 g       .pstack	00000000 __process_stack_base__
+080002ba  w    F .text	00000000 Vector1A8
+080002ba  w    F .text	00000000 Vector16C
+20001210 g       .ram0	00000000 __ram0_clear__
+08002eb0 g     F .text	0000002c Vector70
+080002ba  w    F .text	00000000 VectorD4
+0000ea01  w      .debug_info	00000000 .hidden hal_flash.c.a5fedeb1
+0002a003  w      .debug_info	00000000 .hidden chmboxes.c.1e542565
+00000000 g       .ram3	00000000 __ram3_noinit__
+20001210 g       .ram0	00000000 __ram0_noinit__
+080031f0 g     F .text	00000038 __init_ram_areas
+080002ba  w    F .text	00000000 Vector4C
+080002ba  w    F .text	00000000 Vector144
+08002df0 g     F .text	0000002c Vector80
+080002e2 g     F .text	00000000 _port_switch_from_isr
+080002ba  w    F .text	00000000 Vector15C
+00000000 g       .bss	00000000 __flash1_base__
+00000000 g       *ABS*	00000000 __ram7_end__
+080030b0 g     F .text	00000038 Vector68
+00000000 g       .ram7	00000000 __flash5_init__
+080001e0 g       .text	00000000 __text_base__
+20000400 g       .mstack	00000000 __main_stack_end__
+08002e50 g     F .text	0000002c Vector78
+00000000 g       .ram5_init	00000000 __ram5_init__
+00000000 g       .ram7	00000000 __flash7_init__
+00000000 g       *ABS*	00000000 __flash1_size__
+20000800 g       .data	00000000 __data_base__
+00022879  w      .debug_info	00000000 .hidden chvt.c.cc5c31c6
+080002be  w    F .text	00000000 _unhandled_exception
+080002ba  w    F .text	00000000 Vector170
+080002ba  w    F .text	00000000 Vector88
+08003584 g       .data	00000000 __exidx_base__
+0000a558  w      .debug_info	00000000 .hidden hal_buffers.c.ab40430d
+00080000 g       *ABS*	00000000 __flash0_size__
+20000400 g       .pstack	00000000 __main_thread_stack_base__
+00000000 g       .bss	00000000 __ram2_base__
+08003980 g       *ABS*	00000000 __ram7_init_text__
+00000000 g       .ram3_init	00000000 __ram3_init__
+080002ba  w    F .text	00000000 Vector104
+20000000 g       .bss	00000000 __ram0_base__
+080002ba  w    F .text	00000000 Vector184
+080002ba  w    F .text	00000000 Vector10C
+080002e6 g       .text	00000000 _port_exit_from_isr
+20000000 g       .ram1_init	00000000 __ram1_init__
+00000000 g       .bss	00000000 __ram4_base__
+00000000 g       .bss	00000000 __ram5_base__
+080002ba  w    F .text	00000000 Vector14C
+080002ba  w    F .text	00000000 BusFault_Handler
+00000000 g       *ABS*	00000000 __flash6_size__
+080002ba  w    F .text	00000000 Vector50
+080002ba  w    F .text	00000000 Vector1C8
+00000000 g       .ram2	00000000 __ram2_free__
+080002ba  w    F .text	00000000 Vector194
+080002ba  w    F .text	00000000 Vector1DC
+08002c40 g     F .text	0000002c Vector154
+000173b9  w      .debug_info	00000000 .hidden hal_lld.c.7b5c6362
+00000000 g       .ram4	00000000 __ram4_free__
+20020000 g       *ABS*	00000000 __ram0_end__
+20000000 g       .mstack	00000000 __main_stack_base__
+080002ba  w    F .text	00000000 Vector44
+080002ba  w    F .text	00000000 Vector28
+080002ba  w    F .text	00000000 VectorB8
+00000400 g       *ABS*	00000000 __main_stack_size__
+08002d90 g     F .text	0000002c VectorFC
+00000000 g       .ram7	00000000 __ram7_noinit__
+20000800 g       .pstack	00000000 __process_stack_end__
+080002ba  w    F .text	00000000 Vector34
+00000000 g       .ram7	00000000 __flash2_init__
+08002bd0 g     F .text	0000000c __early_init
+00000000 g       .ram7	00000000 __flash4_init__
+08002d00 g     F .text	0000002c Vector128
+080002ba  w    F .text	00000000 VectorA4
+00000400 g       *ABS*	00000000 __process_stack_size__
+00000000 g       .ram7	00000000 __flash1_init__
+080002ba  w    F .text	00000000 Vector20
+080002ba  w    F .text	00000000 Vector18C
+00000000 g       *ABS*	00000000 __flash7_end__
+080002ba  w    F .text	00000000 Vector174
+
+
