@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccOvtvQQ.s 			page 1
+ARM GAS  /tmp/ccq1TspC.s 			page 1
 
 
    1              		.cpu cortex-m4
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
   55              		.file 44 "/usr/arm-none-eabi/include/sys/lock.h"
   56              		.file 45 "/usr/arm-none-eabi/include/sys/_types.h"
   57              		.file 46 "/usr/arm-none-eabi/include/sys/reent.h"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 2
+ARM GAS  /tmp/ccq1TspC.s 			page 2
 
 
   58              		.file 47 "../../ChibiOS/test/oslib/source/test/oslib_test_sequence_006.c"
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  112 0060 D9030000 		.4byte	.LASF6
  113 0064 05       		.uleb128 0x5
  114 0065 02       		.byte	0x2
-ARM GAS  /tmp/ccOvtvQQ.s 			page 3
+ARM GAS  /tmp/ccq1TspC.s 			page 3
 
 
  115 0066 05       		.byte	0x5
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  169 00cf 14       		.byte	0x14
  170 00d0 6B000000 		.4byte	0x6b
  171 00d4 03       		.uleb128 0x3
-ARM GAS  /tmp/ccOvtvQQ.s 			page 4
+ARM GAS  /tmp/ccq1TspC.s 			page 4
 
 
  172 00d5 EC000000 		.4byte	.LASF18
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  226 0144 2E       		.byte	0x2e
  227 0145 1D       		.byte	0x1d
  228 0146 E5000000 		.4byte	0xe5
-ARM GAS  /tmp/ccOvtvQQ.s 			page 5
+ARM GAS  /tmp/ccq1TspC.s 			page 5
 
 
  229 014a 03       		.uleb128 0x3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  283 01b3 19       		.byte	0x19
  284 01b4 3E010000 		.4byte	0x13e
  285 01b8 08       		.byte	0x8
-ARM GAS  /tmp/ccOvtvQQ.s 			page 6
+ARM GAS  /tmp/ccq1TspC.s 			page 6
 
 
  286 01b9 09       		.uleb128 0x9
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  340 021c 32010000 		.4byte	0x132
  341 0220 22       		.byte	0x22
  342 0221 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccOvtvQQ.s 			page 7
+ARM GAS  /tmp/ccq1TspC.s 			page 7
 
 
  343 0222 7500     		.ascii	"u\000"
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  397 028a 8E020000 		.4byte	0x28e
  398 028e 0C       		.uleb128 0xc
  399 028f 04       		.byte	0x4
-ARM GAS  /tmp/ccOvtvQQ.s 			page 8
+ARM GAS  /tmp/ccq1TspC.s 			page 8
 
 
  400 0290 86010000 		.4byte	0x186
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  454 02f6 1E       		.byte	0x1e
  455 02f7 FB020000 		.4byte	0x2fb
  456 02fb 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccOvtvQQ.s 			page 9
+ARM GAS  /tmp/ccq1TspC.s 			page 9
 
 
  457 02fc 91060000 		.4byte	.LASF57
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  511 0366 6A030000 		.4byte	0x36a
  512 036a 0C       		.uleb128 0xc
  513 036b 04       		.byte	0x4
-ARM GAS  /tmp/ccOvtvQQ.s 			page 10
+ARM GAS  /tmp/ccq1TspC.s 			page 10
 
 
  514 036c 70030000 		.4byte	0x370
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  568 03d8 7B030000 		.4byte	0x37b
  569 03dc 10       		.byte	0x10
  570 03dd 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 11
+ARM GAS  /tmp/ccq1TspC.s 			page 11
 
 
  571 03de 03       		.uleb128 0x3
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  625 0447 5A040000 		.4byte	0x45a
  626 044b 0B       		.uleb128 0xb
  627 044c 42040000 		.4byte	.LASF69
-ARM GAS  /tmp/ccOvtvQQ.s 			page 12
+ARM GAS  /tmp/ccq1TspC.s 			page 12
 
 
  628 0450 07       		.byte	0x7
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  682 04b9 00       		.byte	0
  683 04ba 03       		.uleb128 0x3
  684 04bb 64000000 		.4byte	.LASF75
-ARM GAS  /tmp/ccOvtvQQ.s 			page 13
+ARM GAS  /tmp/ccq1TspC.s 			page 13
 
 
  685 04bf 08       		.byte	0x8
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  739 052f 0B       		.byte	0xb
  740 0530 7D01     		.2byte	0x17d
  741 0532 09       		.byte	0x9
-ARM GAS  /tmp/ccOvtvQQ.s 			page 14
+ARM GAS  /tmp/ccq1TspC.s 			page 14
 
 
  742 0533 8B050000 		.4byte	0x58b
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  796 059d 09       		.byte	0x9
  797 059e 1F060000 		.4byte	0x61f
  798 05a2 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccOvtvQQ.s 			page 15
+ARM GAS  /tmp/ccq1TspC.s 			page 15
 
 
  799 05a3 43523100 		.ascii	"CR1\000"
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  853 060f 1C       		.byte	0x1c
  854 0610 0B       		.uleb128 0xb
  855 0611 80100000 		.4byte	.LASF89
-ARM GAS  /tmp/ccOvtvQQ.s 			page 16
+ARM GAS  /tmp/ccq1TspC.s 			page 16
 
 
  856 0615 0B       		.byte	0xb
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  910 067b 43523300 		.ascii	"CR3\000"
  911 067f 0B       		.byte	0xb
  912 0680 2003     		.2byte	0x320
-ARM GAS  /tmp/ccOvtvQQ.s 			page 17
+ARM GAS  /tmp/ccq1TspC.s 			page 17
 
 
  913 0682 11       		.byte	0x11
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  967 06ea A101     		.2byte	0x1a1
  968 06ec 11       		.byte	0x11
  969 06ed E5000000 		.4byte	0xe5
-ARM GAS  /tmp/ccOvtvQQ.s 			page 18
+ARM GAS  /tmp/ccq1TspC.s 			page 18
 
 
  970 06f1 0C       		.byte	0xc
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1024 0754 B0060000 		.4byte	0x6b0
  1025 0758 17       		.uleb128 0x17
  1026 0759 04       		.byte	0x4
-ARM GAS  /tmp/ccOvtvQQ.s 			page 19
+ARM GAS  /tmp/ccq1TspC.s 			page 19
 
 
  1027 075a 0E       		.byte	0xe
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1081 07c0 19       		.uleb128 0x19
  1082 07c1 5D000000 		.4byte	.LASF103
  1083 07c5 07       		.byte	0x7
-ARM GAS  /tmp/ccOvtvQQ.s 			page 20
+ARM GAS  /tmp/ccq1TspC.s 			page 20
 
 
  1084 07c6 F0       		.byte	0xf0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1138 082d 3A       		.byte	0x3a
  1139 082e 19       		.byte	0x19
  1140 082f BB020000 		.4byte	0x2bb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 21
+ARM GAS  /tmp/ccq1TspC.s 			page 21
 
 
  1141 0833 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1195 089d 16       		.byte	0x16
  1196 089e 12       		.byte	0x12
  1197 089f 34       		.byte	0x34
-ARM GAS  /tmp/ccOvtvQQ.s 			page 22
+ARM GAS  /tmp/ccq1TspC.s 			page 22
 
 
  1198 08a0 09       		.byte	0x9
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1252 0906 3C       		.byte	0x3c
  1253 0907 0D       		.byte	0xd
  1254 0908 B7000000 		.4byte	0xb7
-ARM GAS  /tmp/ccOvtvQQ.s 			page 23
+ARM GAS  /tmp/ccq1TspC.s 			page 23
 
 
  1255 090c 0B       		.byte	0xb
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1309 096f 0D       		.byte	0xd
  1310 0970 B7000000 		.4byte	0xb7
  1311 0974 13       		.byte	0x13
-ARM GAS  /tmp/ccOvtvQQ.s 			page 24
+ARM GAS  /tmp/ccq1TspC.s 			page 24
 
 
  1312 0975 08       		.uleb128 0x8
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1366 09e1 34       		.byte	0x34
  1367 09e2 1F       		.byte	0x1f
  1368 09e3 E7090000 		.4byte	0x9e7
-ARM GAS  /tmp/ccOvtvQQ.s 			page 25
+ARM GAS  /tmp/ccq1TspC.s 			page 25
 
 
  1369 09e7 07       		.uleb128 0x7
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1423 0a4a 98110000 		.4byte	.LASF52
  1424 0a4e 13       		.byte	0x13
  1425 0a4f 4B       		.byte	0x4b
-ARM GAS  /tmp/ccOvtvQQ.s 			page 26
+ARM GAS  /tmp/ccq1TspC.s 			page 26
 
 
  1426 0a50 1A       		.byte	0x1a
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1480 0ab6 B7000000 		.4byte	0xb7
  1481 0aba 03       		.uleb128 0x3
  1482 0abb 8A030000 		.4byte	.LASF144
-ARM GAS  /tmp/ccOvtvQQ.s 			page 27
+ARM GAS  /tmp/ccq1TspC.s 			page 27
 
 
  1483 0abf 14       		.byte	0x14
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1537 0b22 08       		.byte	0x8
  1538 0b23 08       		.uleb128 0x8
  1539 0b24 DC000000 		.4byte	.LASF149
-ARM GAS  /tmp/ccOvtvQQ.s 			page 28
+ARM GAS  /tmp/ccq1TspC.s 			page 28
 
 
  1540 0b28 15       		.byte	0x15
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1594 0b8e 10       		.byte	0x10
  1595 0b8f 16       		.byte	0x16
  1596 0b90 7F       		.byte	0x7f
-ARM GAS  /tmp/ccOvtvQQ.s 			page 29
+ARM GAS  /tmp/ccq1TspC.s 			page 29
 
 
  1597 0b91 08       		.byte	0x8
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1651 0bf7 9D       		.byte	0x9d
  1652 0bf8 1A       		.byte	0x1a
  1653 0bf9 270D0000 		.4byte	0xd27
-ARM GAS  /tmp/ccOvtvQQ.s 			page 30
+ARM GAS  /tmp/ccq1TspC.s 			page 30
 
 
  1654 0bfd 04       		.byte	0x4
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1708 0c60 54       		.byte	0x54
  1709 0c61 21       		.byte	0x21
  1710 0c62 660C0000 		.4byte	0xc66
-ARM GAS  /tmp/ccOvtvQQ.s 			page 31
+ARM GAS  /tmp/ccq1TspC.s 			page 31
 
 
  1711 0c66 07       		.uleb128 0x7
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1765 0cc9 BD090000 		.4byte	0x9bd
  1766 0ccd 24       		.byte	0x24
  1767 0cce 08       		.uleb128 0x8
-ARM GAS  /tmp/ccOvtvQQ.s 			page 32
+ARM GAS  /tmp/ccq1TspC.s 			page 32
 
 
  1768 0ccf 850C0000 		.4byte	.LASF175
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1822 0d3b 490B0000 		.4byte	0xb49
  1823 0d3f 07       		.uleb128 0x7
  1824 0d40 A8010000 		.4byte	.LASF180
-ARM GAS  /tmp/ccOvtvQQ.s 			page 33
+ARM GAS  /tmp/ccq1TspC.s 			page 33
 
 
  1825 0d44 10       		.byte	0x10
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1879 0daa 1A       		.byte	0x1a
  1880 0dab B10D0000 		.4byte	0xdb1
  1881 0daf 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 34
+ARM GAS  /tmp/ccq1TspC.s 			page 34
 
 
  1882 0db0 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1936 0e1c 17       		.byte	0x17
  1937 0e1d 3F01     		.2byte	0x13f
  1938 0e1f 19       		.byte	0x19
-ARM GAS  /tmp/ccOvtvQQ.s 			page 35
+ARM GAS  /tmp/ccq1TspC.s 			page 35
 
 
  1939 0e20 310B0000 		.4byte	0xb31
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  1993 0e8b CF0E0000 		.4byte	0xecf
  1994 0e8f 04       		.byte	0x4
  1995 0e90 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 36
+ARM GAS  /tmp/ccq1TspC.s 			page 36
 
 
  1996 0e91 B60E0000 		.4byte	.LASF197
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2050 0f02 9002     		.2byte	0x290
  2051 0f04 21       		.byte	0x21
  2052 0f05 F70E0000 		.4byte	0xef7
-ARM GAS  /tmp/ccOvtvQQ.s 			page 37
+ARM GAS  /tmp/ccq1TspC.s 			page 37
 
 
  2053 0f09 1D       		.uleb128 0x1d
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2107 0f8a 0F       		.uleb128 0xf
  2108 0f8b B7000000 		.4byte	0xb7
  2109 0f8f 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccOvtvQQ.s 			page 38
+ARM GAS  /tmp/ccq1TspC.s 			page 38
 
 
  2110 0f90 C6040000 		.4byte	0x4c6
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2164 1011 7B030000 		.4byte	0x37b
  2165 1015 00       		.byte	0
  2166 1016 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccOvtvQQ.s 			page 39
+ARM GAS  /tmp/ccq1TspC.s 			page 39
 
 
  2167 1017 04       		.byte	0x4
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2221 107d 1A       		.byte	0x1a
  2222 107e B40A0000 		.4byte	0xab4
  2223 1082 18       		.byte	0x18
-ARM GAS  /tmp/ccOvtvQQ.s 			page 40
+ARM GAS  /tmp/ccq1TspC.s 			page 40
 
 
  2224 1083 08       		.uleb128 0x8
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2278 10e9 19       		.byte	0x19
  2279 10ea BB020000 		.4byte	0x2bb
  2280 10ee 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 41
+ARM GAS  /tmp/ccq1TspC.s 			page 41
 
 
  2281 10ef 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2335 1148 CF110000 		.4byte	0x11cf
  2336 114c 08       		.uleb128 0x8
  2337 114d F0090000 		.4byte	.LASF219
-ARM GAS  /tmp/ccOvtvQQ.s 			page 42
+ARM GAS  /tmp/ccq1TspC.s 			page 42
 
 
  2338 1151 1B       		.byte	0x1b
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2392 11b4 08       		.uleb128 0x8
  2393 11b5 910A0000 		.4byte	.LASF225
  2394 11b9 1B       		.byte	0x1b
-ARM GAS  /tmp/ccOvtvQQ.s 			page 43
+ARM GAS  /tmp/ccq1TspC.s 			page 43
 
 
  2395 11ba 61       		.byte	0x61
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2449 1224 20       		.uleb128 0x20
  2450 1225 C60E0000 		.4byte	.LASF232
  2451 1229 02       		.byte	0x2
-ARM GAS  /tmp/ccOvtvQQ.s 			page 44
+ARM GAS  /tmp/ccq1TspC.s 			page 44
 
 
  2452 122a 00       		.byte	0
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2506 1290 30       		.byte	0x30
  2507 1291 09       		.uleb128 0x9
  2508 1292 696200   		.ascii	"ib\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 45
+ARM GAS  /tmp/ccq1TspC.s 			page 45
 
 
  2509 1295 1D       		.byte	0x1d
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2563 12f8 08       		.uleb128 0x8
  2564 12f9 2C0A0000 		.4byte	.LASF243
  2565 12fd 1D       		.byte	0x1d
-ARM GAS  /tmp/ccOvtvQQ.s 			page 46
+ARM GAS  /tmp/ccq1TspC.s 			page 46
 
 
  2566 12fe 71       		.byte	0x71
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2620 1361 06       		.uleb128 0x6
  2621 1362 D1120000 		.4byte	0x12d1
  2622 1366 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccOvtvQQ.s 			page 47
+ARM GAS  /tmp/ccq1TspC.s 			page 47
 
 
  2623 1367 04       		.byte	0x4
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2677 13d0 4A140000 		.4byte	0x144a
  2678 13d4 08       		.uleb128 0x8
  2679 13d5 C4010000 		.4byte	.LASF39
-ARM GAS  /tmp/ccOvtvQQ.s 			page 48
+ARM GAS  /tmp/ccq1TspC.s 			page 48
 
 
  2680 13d9 1F       		.byte	0x1f
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2734 143c 08       		.uleb128 0x8
  2735 143d D90D0000 		.4byte	.LASF262
  2736 1441 1F       		.byte	0x1f
-ARM GAS  /tmp/ccOvtvQQ.s 			page 49
+ARM GAS  /tmp/ccq1TspC.s 			page 49
 
 
  2737 1442 D9       		.byte	0xd9
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2791 14a8 10       		.byte	0x10
  2792 14a9 09       		.uleb128 0x9
  2793 14aa 63723200 		.ascii	"cr2\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 50
+ARM GAS  /tmp/ccq1TspC.s 			page 50
 
 
  2794 14ae 1F       		.byte	0x1f
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2848 1516 0F       		.byte	0xf
  2849 1517 55080000 		.4byte	0x855
  2850 151b 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 51
+ARM GAS  /tmp/ccq1TspC.s 			page 51
 
 
  2851 151c 08       		.uleb128 0x8
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2905 157f 00       		.byte	0
  2906 1580 0C       		.uleb128 0xc
  2907 1581 04       		.byte	0x4
-ARM GAS  /tmp/ccOvtvQQ.s 			page 52
+ARM GAS  /tmp/ccq1TspC.s 			page 52
 
 
  2908 1582 8C150000 		.4byte	0x158c
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  2962 15ee C9       		.byte	0xc9
  2963 15ef 11       		.byte	0x11
  2964 15f0 35000000 		.4byte	0x35
-ARM GAS  /tmp/ccOvtvQQ.s 			page 53
+ARM GAS  /tmp/ccq1TspC.s 			page 53
 
 
  2965 15f4 12       		.uleb128 0x12
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3019 1660 12       		.uleb128 0x12
  3020 1661 8B0B0000 		.4byte	.LASF290
  3021 1665 2A       		.byte	0x2a
-ARM GAS  /tmp/ccOvtvQQ.s 			page 54
+ARM GAS  /tmp/ccq1TspC.s 			page 54
 
 
  3022 1666 19       		.byte	0x19
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3076 16d0 13       		.byte	0x13
  3077 16d1 D6160000 		.4byte	0x16d6
  3078 16d5 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 55
+ARM GAS  /tmp/ccq1TspC.s 			page 55
 
 
  3079 16d6 13       		.uleb128 0x13
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3133 173c 08       		.byte	0x8
  3134 173d 8E170000 		.4byte	0x178e
  3135 1741 08       		.uleb128 0x8
-ARM GAS  /tmp/ccOvtvQQ.s 			page 56
+ARM GAS  /tmp/ccq1TspC.s 			page 56
 
 
  3136 1742 670E0000 		.4byte	.LASF304
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3190 17a9 24       		.byte	0x24
  3191 17aa 2E       		.byte	0x2e
  3192 17ab 37       		.byte	0x37
-ARM GAS  /tmp/ccOvtvQQ.s 			page 57
+ARM GAS  /tmp/ccq1TspC.s 			page 57
 
 
  3193 17ac 08       		.byte	0x8
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3247 1812 40       		.byte	0x40
  3248 1813 09       		.byte	0x9
  3249 1814 1D000000 		.4byte	0x1d
-ARM GAS  /tmp/ccOvtvQQ.s 			page 58
+ARM GAS  /tmp/ccq1TspC.s 			page 58
 
 
  3250 1818 1C       		.byte	0x1c
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3304 1881 9001     		.2byte	0x190
  3305 1883 2E       		.byte	0x2e
  3306 1884 5D       		.byte	0x5d
-ARM GAS  /tmp/ccOvtvQQ.s 			page 59
+ARM GAS  /tmp/ccq1TspC.s 			page 59
 
 
  3307 1885 08       		.byte	0x8
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3361 18ee 00       		.byte	0
  3362 18ef 08       		.uleb128 0x8
  3363 18f0 DE020000 		.4byte	.LASF328
-ARM GAS  /tmp/ccOvtvQQ.s 			page 60
+ARM GAS  /tmp/ccq1TspC.s 			page 60
 
 
  3364 18f4 2E       		.byte	0x2e
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3418 1954 BB       		.byte	0xbb
  3419 1955 11       		.byte	0x11
  3420 1956 D5180000 		.4byte	0x18d5
-ARM GAS  /tmp/ccOvtvQQ.s 			page 61
+ARM GAS  /tmp/ccq1TspC.s 			page 61
 
 
  3421 195a 10       		.byte	0x10
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3475 19bd 12       		.byte	0x12
  3476 19be FD180000 		.4byte	0x18fd
  3477 19c2 38       		.byte	0x38
-ARM GAS  /tmp/ccOvtvQQ.s 			page 62
+ARM GAS  /tmp/ccq1TspC.s 			page 62
 
 
  3478 19c3 09       		.uleb128 0x9
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3532 1a26 16170000 		.4byte	0x1716
  3533 1a2a 58       		.byte	0x58
  3534 1a2b 08       		.uleb128 0x8
-ARM GAS  /tmp/ccOvtvQQ.s 			page 63
+ARM GAS  /tmp/ccq1TspC.s 			page 63
 
 
  3535 1a2c A4070000 		.4byte	.LASF344
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3589 1a9f 2E       		.byte	0x2e
  3590 1aa0 6702     		.2byte	0x267
  3591 1aa2 14       		.byte	0x14
-ARM GAS  /tmp/ccOvtvQQ.s 			page 64
+ARM GAS  /tmp/ccq1TspC.s 			page 64
 
 
  3592 1aa3 8C1C0000 		.4byte	0x1c8c
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3646 1b10 7502     		.2byte	0x275
  3647 1b12 13       		.byte	0x13
  3648 1b13 8E170000 		.4byte	0x178e
-ARM GAS  /tmp/ccOvtvQQ.s 			page 65
+ARM GAS  /tmp/ccq1TspC.s 			page 65
 
 
  3649 1b17 40       		.byte	0x40
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3703 1b83 12       		.byte	0x12
  3704 1b84 7C180000 		.4byte	0x187c
  3705 1b88 4C01     		.2byte	0x14c
-ARM GAS  /tmp/ccOvtvQQ.s 			page 66
+ARM GAS  /tmp/ccq1TspC.s 			page 66
 
 
  3706 1b8a 26       		.uleb128 0x26
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3760 1c02 E21B0000 		.4byte	0x1be2
  3761 1c06 1D       		.uleb128 0x1d
  3762 1c07 1D000000 		.4byte	0x1d
-ARM GAS  /tmp/ccOvtvQQ.s 			page 67
+ARM GAS  /tmp/ccq1TspC.s 			page 67
 
 
  3763 1c0b 1A1C0000 		.4byte	0x1c1a
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3817 1c7f 0B       		.byte	0xb
  3818 1c80 8C1C0000 		.4byte	0x1c8c
  3819 1c84 08       		.byte	0x8
-ARM GAS  /tmp/ccOvtvQQ.s 			page 68
+ARM GAS  /tmp/ccq1TspC.s 			page 68
 
 
  3820 1c85 00       		.byte	0
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3874 1cee 35000000 		.4byte	0x35
  3875 1cf2 00       		.byte	0
  3876 1cf3 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 69
+ARM GAS  /tmp/ccq1TspC.s 			page 69
 
 
  3877 1cf4 8F0D0000 		.4byte	.LASF377
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3931 1d62 70       		.byte	0x70
  3932 1d63 0B       		.uleb128 0xb
  3933 1d64 650B0000 		.4byte	.LASF385
-ARM GAS  /tmp/ccOvtvQQ.s 			page 70
+ARM GAS  /tmp/ccq1TspC.s 			page 70
 
 
  3934 1d68 2E       		.byte	0x2e
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  3988 1dd3 0B       		.uleb128 0xb
  3989 1dd4 6F010000 		.4byte	.LASF393
  3990 1dd8 2E       		.byte	0x2e
-ARM GAS  /tmp/ccOvtvQQ.s 			page 71
+ARM GAS  /tmp/ccq1TspC.s 			page 71
 
 
  3991 1dd9 9302     		.2byte	0x293
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4045 1e47 13       		.uleb128 0x13
  4046 1e48 35000000 		.4byte	0x35
  4047 1e4c 571E0000 		.4byte	0x1e57
-ARM GAS  /tmp/ccOvtvQQ.s 			page 72
+ARM GAS  /tmp/ccq1TspC.s 			page 72
 
 
  4048 1e50 14       		.uleb128 0x14
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4102 1ebf 0C       		.uleb128 0xc
  4103 1ec0 04       		.byte	0x4
  4104 1ec1 AE1E0000 		.4byte	0x1eae
-ARM GAS  /tmp/ccOvtvQQ.s 			page 73
+ARM GAS  /tmp/ccq1TspC.s 			page 73
 
 
  4105 1ec5 13       		.uleb128 0x13
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4159 1f30 57050000 		.4byte	.LASF405
  4160 1f34 2F       		.byte	0x2f
  4161 1f35 3D       		.byte	0x3d
-ARM GAS  /tmp/ccOvtvQQ.s 			page 74
+ARM GAS  /tmp/ccq1TspC.s 			page 74
 
 
  4162 1f36 19       		.byte	0x19
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4216 1fa6 C31F0000 		.4byte	0x1fc3
  4217 1faa 2D       		.uleb128 0x2d
  4218 1fab 6900     		.ascii	"i\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 75
+ARM GAS  /tmp/ccq1TspC.s 			page 75
 
 
  4219 1fad 2F       		.byte	0x2f
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4273 200f B5       		.byte	0xb5
  4274 2010 14       		.byte	0x14
  4275 2011 270D0000 		.4byte	0xd27
-ARM GAS  /tmp/ccOvtvQQ.s 			page 76
+ARM GAS  /tmp/ccq1TspC.s 			page 76
 
 
  4276 2015 00       		.byte	0
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4330 2074 270D0000 		.4byte	0xd27
  4331 2078 31       		.uleb128 0x31
  4332 2079 F6090000 		.4byte	.LASF411
-ARM GAS  /tmp/ccOvtvQQ.s 			page 77
+ARM GAS  /tmp/ccq1TspC.s 			page 77
 
 
  4333 207d 2F       		.byte	0x2f
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4387 20ea 14       		.byte	0x14
  4388 20eb F9200000 		.4byte	0x20f9
  4389 20ef 35       		.uleb128 0x35
-ARM GAS  /tmp/ccOvtvQQ.s 			page 78
+ARM GAS  /tmp/ccq1TspC.s 			page 78
 
 
  4390 20f0 22010000 		.4byte	.LASF425
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4444 000c 17       		.uleb128 0x17
  4445 000d 00       		.byte	0
  4446 000e 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 79
+ARM GAS  /tmp/ccq1TspC.s 			page 79
 
 
  4447 000f 02       		.uleb128 0x2
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4501 0045 03       		.uleb128 0x3
  4502 0046 0E       		.uleb128 0xe
  4503 0047 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 80
+ARM GAS  /tmp/ccq1TspC.s 			page 80
 
 
  4504 0048 0B       		.uleb128 0xb
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4558 007e 39       		.uleb128 0x39
  4559 007f 0B       		.uleb128 0xb
  4560 0080 49       		.uleb128 0x49
-ARM GAS  /tmp/ccOvtvQQ.s 			page 81
+ARM GAS  /tmp/ccq1TspC.s 			page 81
 
 
  4561 0081 13       		.uleb128 0x13
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4615 00b7 13       		.uleb128 0x13
  4616 00b8 00       		.byte	0
  4617 00b9 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 82
+ARM GAS  /tmp/ccq1TspC.s 			page 82
 
 
  4618 00ba 0F       		.uleb128 0xf
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4672 00f0 01       		.byte	0x1
  4673 00f1 49       		.uleb128 0x49
  4674 00f2 13       		.uleb128 0x13
-ARM GAS  /tmp/ccOvtvQQ.s 			page 83
+ARM GAS  /tmp/ccq1TspC.s 			page 83
 
 
  4675 00f3 01       		.uleb128 0x1
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4729 0129 01       		.uleb128 0x1
  4730 012a 13       		.uleb128 0x13
  4731 012b 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 84
+ARM GAS  /tmp/ccq1TspC.s 			page 84
 
 
  4732 012c 00       		.byte	0
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4786 0162 05       		.uleb128 0x5
  4787 0163 39       		.uleb128 0x39
  4788 0164 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 85
+ARM GAS  /tmp/ccq1TspC.s 			page 85
 
 
  4789 0165 49       		.uleb128 0x49
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4843 019b 01       		.uleb128 0x1
  4844 019c 13       		.uleb128 0x13
  4845 019d 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 86
+ARM GAS  /tmp/ccq1TspC.s 			page 86
 
 
  4846 019e 00       		.byte	0
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4900 01d4 49       		.uleb128 0x49
  4901 01d5 13       		.uleb128 0x13
  4902 01d6 38       		.uleb128 0x38
-ARM GAS  /tmp/ccOvtvQQ.s 			page 87
+ARM GAS  /tmp/ccq1TspC.s 			page 87
 
 
  4903 01d7 05       		.uleb128 0x5
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  4957 020d 00       		.byte	0
  4958 020e 03       		.uleb128 0x3
  4959 020f 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccOvtvQQ.s 			page 88
+ARM GAS  /tmp/ccq1TspC.s 			page 88
 
 
  4960 0210 3A       		.uleb128 0x3a
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5014 0246 13       		.uleb128 0x13
  5015 0247 00       		.byte	0
  5016 0248 00       		.byte	0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 89
+ARM GAS  /tmp/ccq1TspC.s 			page 89
 
 
  5017 0249 2C       		.uleb128 0x2c
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5071 027f 0B       		.uleb128 0xb
  5072 0280 39       		.uleb128 0x39
  5073 0281 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 90
+ARM GAS  /tmp/ccq1TspC.s 			page 90
 
 
  5074 0282 49       		.uleb128 0x49
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5128 02b8 03       		.uleb128 0x3
  5129 02b9 0E       		.uleb128 0xe
  5130 02ba 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccOvtvQQ.s 			page 91
+ARM GAS  /tmp/ccq1TspC.s 			page 91
 
 
  5131 02bb 0B       		.uleb128 0xb
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5185              	.LSLT0:
  5186 0004 0400     		.2byte	0x4
  5187 0006 DB050000 		.4byte	.LELTP0-.LASLTP0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 92
+ARM GAS  /tmp/ccq1TspC.s 			page 92
 
 
  5188              	.LASLTP0:
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5218 0117 00       		.byte	0
  5219 0118 2E2E2F2E 		.ascii	"../../ChibiOS/os/hal/ports/STM32/LLD/GPIOv2"
  5219      2E2F4368 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 93
+ARM GAS  /tmp/ccq1TspC.s 			page 93
 
 
  5219      6962694F 
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5237      2D6E6F6E 
  5237      652D6561 
  5237      62692F69 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 94
+ARM GAS  /tmp/ccq1TspC.s 			page 94
 
 
  5238 026f 00       		.byte	0
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5270      6D652E68 
  5270      00
  5271 0305 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccOvtvQQ.s 			page 95
+ARM GAS  /tmp/ccq1TspC.s 			page 95
 
 
  5272 0306 00       		.uleb128 0
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5308 0382 00       		.uleb128 0
  5309 0383 00       		.uleb128 0
  5310 0384 63687265 		.ascii	"chregistry.h\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 96
+ARM GAS  /tmp/ccq1TspC.s 			page 96
 
 
  5310      67697374 
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5343 040a 05       		.uleb128 0x5
  5344 040b 00       		.uleb128 0
  5345 040c 00       		.uleb128 0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 97
+ARM GAS  /tmp/ccq1TspC.s 			page 97
 
 
  5346 040d 73746D33 		.ascii	"stm32_gpio.h\000"
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5376 0498 00       		.uleb128 0
  5377 0499 00       		.uleb128 0
  5378 049a 6F736C69 		.ascii	"oslib_test_sequence_002.h\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 98
+ARM GAS  /tmp/ccq1TspC.s 			page 98
 
 
  5378      625F7465 
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5405 0564 00       		.uleb128 0
  5406 0565 6F736C69 		.ascii	"oslib_test_sequence_009.h\000"
  5406      625F7465 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 99
+ARM GAS  /tmp/ccq1TspC.s 			page 99
 
 
  5406      73745F73 
@@ -5938,7 +5938,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5442              	.LASF387:
  5443 000d 5F736967 		.ascii	"_signal_buf\000"
  5443      6E616C5F 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 100
+ARM GAS  /tmp/ccq1TspC.s 			page 100
 
 
  5443      62756600 
@@ -5998,7 +5998,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5471      532F7465 
  5471      73742F6F 
  5472 00c6 75656E63 		.ascii	"uence_006.c\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 101
+ARM GAS  /tmp/ccq1TspC.s 			page 101
 
 
  5472      655F3030 
@@ -6058,7 +6058,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5500      727400
  5501              	.LASF402:
  5502 015b 68656164 		.ascii	"header\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 102
+ARM GAS  /tmp/ccq1TspC.s 			page 102
 
 
  5502      657200
@@ -6118,7 +6118,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5532 01df 6F635F6F 		.ascii	"oc_object_t\000"
  5532      626A6563 
  5532      745F7400 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 103
+ARM GAS  /tmp/ccq1TspC.s 			page 103
 
 
  5533              	.LASF270:
@@ -6178,7 +6178,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5566      6500
  5567              	.LASF318:
  5568 0263 5F6F6E5F 		.ascii	"_on_exit_args\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 104
+ARM GAS  /tmp/ccq1TspC.s 			page 104
 
 
  5568      65786974 
@@ -6238,7 +6238,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5596      616C7469 
  5596      6D655F62 
  5596      756600
-ARM GAS  /tmp/ccOvtvQQ.s 			page 105
+ARM GAS  /tmp/ccq1TspC.s 			page 105
 
 
  5597              	.LASF161:
@@ -6298,7 +6298,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5625              	.LASF376:
  5626 037d 5F756E75 		.ascii	"_unused_rand\000"
  5626      7365645F 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 106
+ARM GAS  /tmp/ccq1TspC.s 			page 106
 
 
  5626      72616E64 
@@ -6358,7 +6358,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5654      325F6770 
  5654      696F5F74 
  5654      00
-ARM GAS  /tmp/ccOvtvQQ.s 			page 107
+ARM GAS  /tmp/ccq1TspC.s 			page 107
 
 
  5655              	.LASF269:
@@ -6418,7 +6418,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5680 04b6 4F545950 		.ascii	"OTYPER\000"
  5680      455200
  5681              	.LASF325:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 108
+ARM GAS  /tmp/ccq1TspC.s 			page 108
 
 
  5682 04bd 5F666E73 		.ascii	"_fns\000"
@@ -6478,7 +6478,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5710      75697465 
  5710      00
  5711              	.LASF265:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 109
+ARM GAS  /tmp/ccq1TspC.s 			page 109
 
 
  5712 0548 63697263 		.ascii	"circular\000"
@@ -6538,7 +6538,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5737      63683D61 
  5737      726D7637 
  5737      652D6D20 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 110
+ARM GAS  /tmp/ccq1TspC.s 			page 110
 
 
  5738 0627 2D66616C 		.ascii	"-falign-functions=16 -ffunction-sections -fdata-sec"
@@ -6598,7 +6598,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5765      5F7400
  5766              	.LASF206:
  5767 06de 715F636F 		.ascii	"q_counter\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 111
+ARM GAS  /tmp/ccq1TspC.s 			page 111
 
 
  5767      756E7465 
@@ -6658,7 +6658,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5795 0771 63685F73 		.ascii	"ch_semaphore\000"
  5795      656D6170 
  5795      686F7265 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 112
+ARM GAS  /tmp/ccq1TspC.s 			page 112
 
 
  5795      00
@@ -6718,7 +6718,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5819      73745F74 
  5819      00
  5820              	.LASF36:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 113
+ARM GAS  /tmp/ccq1TspC.s 			page 113
 
 
  5821 0823 6F6C6465 		.ascii	"older\000"
@@ -6778,7 +6778,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5849 08b5 646D6172 		.ascii	"dmarx\000"
  5849      7800
  5850              	.LASF156:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 114
+ARM GAS  /tmp/ccq1TspC.s 			page 114
 
 
  5851 08bb 6F635F6C 		.ascii	"oc_lru_header_t\000"
@@ -6838,7 +6838,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5877 0950 68616C5F 		.ascii	"hal_spi_config\000"
  5877      7370695F 
  5877      636F6E66 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 115
+ARM GAS  /tmp/ccq1TspC.s 			page 115
 
 
  5877      696700
@@ -6898,7 +6898,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5907      72697465 
  5907      665F7400 
  5908              	.LASF235:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 116
+ARM GAS  /tmp/ccq1TspC.s 			page 116
 
 
  5909 09e4 6576656E 		.ascii	"event\000"
@@ -6958,7 +6958,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5933 0a96 6F66665F 		.ascii	"off_newer\000"
  5933      6E657765 
  5933      7200
-ARM GAS  /tmp/ccOvtvQQ.s 			page 117
+ARM GAS  /tmp/ccq1TspC.s 			page 117
 
 
  5934              	.LASF199:
@@ -7018,7 +7018,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5960      73745F73 
  5960      65717565 
  5960      6E63655F 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 118
+ARM GAS  /tmp/ccq1TspC.s 			page 118
 
 
  5961              	.LASF350:
@@ -7078,7 +7078,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  5986      65746675 
  5986      6E635F74 
  5986      00
-ARM GAS  /tmp/ccOvtvQQ.s 			page 119
+ARM GAS  /tmp/ccq1TspC.s 			page 119
 
 
  5987              	.LASF178:
@@ -7138,7 +7138,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6014      5F737465 
  6014      7000
  6015              	.LASF294:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 120
+ARM GAS  /tmp/ccq1TspC.s 			page 120
 
 
  6016 0ca0 5F66706F 		.ascii	"_fpos_t\000"
@@ -7198,7 +7198,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6041              	.LASF372:
  6042 0d33 5F72616E 		.ascii	"_rand48\000"
  6042      64343800 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 121
+ARM GAS  /tmp/ccq1TspC.s 			page 121
 
 
  6043              	.LASF29:
@@ -7258,7 +7258,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6071              	.LASF279:
  6072 0dbe 74657374 		.ascii	"testsuite_t\000"
  6072      73756974 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 122
+ARM GAS  /tmp/ccq1TspC.s 			page 122
 
 
  6072      655F7400 
@@ -7318,7 +7318,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6100      6F6F6C5F 
  6100      7400
  6101              	.LASF157:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 123
+ARM GAS  /tmp/ccq1TspC.s 			page 123
 
 
  6102 0e56 63685F6F 		.ascii	"ch_oc_lru_header\000"
@@ -7378,7 +7378,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6130      00
  6131              	.LASF257:
  6132 0ee0 74687265 		.ascii	"thread\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 124
+ARM GAS  /tmp/ccq1TspC.s 			page 124
 
 
  6132      616400
@@ -7438,7 +7438,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6159              	.LASF236:
  6160 0f63 69717565 		.ascii	"iqueue\000"
  6160      756500
-ARM GAS  /tmp/ccOvtvQQ.s 			page 125
+ARM GAS  /tmp/ccq1TspC.s 			page 125
 
 
  6161              	.LASF321:
@@ -7498,7 +7498,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6190      696E6700 
  6191              	.LASF326:
  6192 0ff2 5F5F7362 		.ascii	"__sbuf\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 126
+ARM GAS  /tmp/ccq1TspC.s 			page 126
 
 
  6192      756600
@@ -7558,7 +7558,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6223              	.LASF89:
  6224 1080 49325350 		.ascii	"I2SPR\000"
  6224      5200
-ARM GAS  /tmp/ccOvtvQQ.s 			page 127
+ARM GAS  /tmp/ccq1TspC.s 			page 127
 
 
  6225              	.LASF357:
@@ -7618,7 +7618,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6253              	.LASF253:
  6254 1113 73706973 		.ascii	"spistate_t\000"
  6254      74617465 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 128
+ARM GAS  /tmp/ccq1TspC.s 			page 128
 
 
  6254      5F7400
@@ -7678,7 +7678,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6284 119d 64617461 		.ascii	"data\000"
  6284      00
  6285              	.LASF131:
-ARM GAS  /tmp/ccOvtvQQ.s 			page 129
+ARM GAS  /tmp/ccq1TspC.s 			page 129
 
 
  6286 11a2 73656D61 		.ascii	"semaphore_t\000"
@@ -7705,13 +7705,13 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6296      6C616773 
  6296      5F7400
  6297              		.text
- 6298              		.section	.gnu.lto_.profile.d0992e0934dee00d,"e",%progbits
+ 6298              		.section	.gnu.lto_.profile.4c7237f649dce9aa,"e",%progbits
  6299 0000 789CE360 		.ascii	"x\234\343``\004B \000\000\000]\000\013"
  6299      60044220 
  6299      0000005D 
  6299      000B
  6300              		.text
- 6301              		.section	.gnu.lto_.inline.d0992e0934dee00d,"e",%progbits
+ 6301              		.section	.gnu.lto_.inline.4c7237f649dce9aa,"e",%progbits
  6302 0000 789CE360 		.ascii	"x\234\343``dx\307\310\000\007\314\014\014\354\015\015"
  6302      606478C7 
  6302      C80007CC 
@@ -7738,7 +7738,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6307      80EAB940 
  6307      B630F330 
  6307      827813FC 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 130
+ARM GAS  /tmp/ccq1TspC.s 			page 130
 
 
  6307      5878418C 
@@ -7765,7 +7765,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6312 00ac 40060015 		.ascii	"@\006\000\025\325>\213"
  6312      D53E8B
  6313              		.text
- 6314              		.section	.gnu.lto_.jmpfuncs.d0992e0934dee00d,"e",%progbits
+ 6314              		.section	.gnu.lto_.jmpfuncs.4c7237f649dce9aa,"e",%progbits
  6315 0000 789CE360 		.ascii	"x\234\343``d0g@\000f\020\301\310@4`\203P\000\022*\000"
  6315      60643067 
  6315      40006610 
@@ -7773,7 +7773,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6315      60835000 
  6316 0017 4B       		.ascii	"K"
  6317              		.text
- 6318              		.section	.gnu.lto_.pureconst.d0992e0934dee00d,"e",%progbits
+ 6318              		.section	.gnu.lto_.pureconst.4c7237f649dce9aa,"e",%progbits
  6319 0000 789CE360 		.ascii	"x\234\343``d\340b```f\230\311\302\270\213\225m\027+"
  6319      6064E062 
  6319      60606066 
@@ -7782,7 +7782,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6320 0015 000B8702 		.ascii	"\000\013\207\0029"
  6320      39
  6321              		.text
- 6322              		.section	.gnu.lto_obj_write.d0992e0934dee00d,"e",%progbits
+ 6322              		.section	.gnu.lto_obj_write.4c7237f649dce9aa,"e",%progbits
  6323 0000 789C7592 		.ascii	"x\234u\222\317K\024a\030\307\237\357<\263\353\270i]"
  6323      CF4B1461 
  6323      18C79FEF 
@@ -7798,7 +7798,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6325      87F0DD1F 
  6325      68616A87 
  6325      C4D4
-ARM GAS  /tmp/ccOvtvQQ.s 			page 131
+ARM GAS  /tmp/ccq1TspC.s 			page 131
 
 
  6326 0036 B6897229 		.ascii	"\266\211r)\010R!\350\207Zc\231e\204,\035\222b\261\037"
@@ -7858,7 +7858,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6337 0108 80E5D14A 		.ascii	"\200\345\321J9P\005\274\233h\310\345T\203\244\302\242"
  6337      395005BC 
  6337      9B68C8E5 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 132
+ARM GAS  /tmp/ccq1TspC.s 			page 132
 
 
  6337      5483A4C2 
@@ -7918,7 +7918,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6349      7E207BA3 
  6349      53AB9D09 
  6349      64805881 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 133
+ARM GAS  /tmp/ccq1TspC.s 			page 133
 
 
  6349      FB130D32 
@@ -7945,7 +7945,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6354 0240 AEF81FEC 		.ascii	"\256\370\037\354\033\356\324"
  6354      1BEED4
  6355              		.text
- 6356              		.section	.gnu.lto_oslib_test_006_001_execute.d0992e0934dee00d,"e",%progbits
+ 6356              		.section	.gnu.lto_oslib_test_006_001_execute.4c7237f649dce9aa,"e",%progbits
  6357 0000 789CB55B 		.ascii	"x\234\265[gpTG\266\236\276}\245\031e\202H\"IDcc\304"
  6357      67705447 
  6357      B69EBE7D 
@@ -7978,7 +7978,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6363 006e E83FC4E1 		.ascii	"\350?\304\341\330\313\034\216\"\315\341`}\035Ls\273"
  6363      D8CB1C8E 
  6363      22CDE160 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 134
+ARM GAS  /tmp/ccq1TspC.s 			page 134
 
 
  6363      7D1D4C73 
@@ -8038,7 +8038,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6375 014e F5955068 		.ascii	"\365\225Ph\353n\370\216\226\276\243Y/\351;\306\360\324"
  6375      EB6EF88E 
  6375      96BEA359 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 135
+ARM GAS  /tmp/ccq1TspC.s 			page 135
 
 
  6375      2FE93BC6 
@@ -8098,7 +8098,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6387      56C6C12F 
  6387      DBC23AB3 
  6387      CDAC334E 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 136
+ARM GAS  /tmp/ccq1TspC.s 			page 136
 
 
  6387      10B7
@@ -8158,7 +8158,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6399      1EA861C1 
  6399      A108D0B1 
  6399      08C0
-ARM GAS  /tmp/ccOvtvQQ.s 			page 137
+ARM GAS  /tmp/ccq1TspC.s 			page 137
 
 
  6400 030b CF402C9C 		.ascii	"\317@,\234\370\351\302\"\010\213`\264\205`\021\212\237"
@@ -8218,7 +8218,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6411 03d9 19DCB1B4 		.ascii	"\031\334\261\264`\377)\274\226frMT'\224:\034W\230;\177"
  6411      60FF29BC 
  6411      9666724D 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 138
+ARM GAS  /tmp/ccq1TspC.s 			page 138
 
 
  6411      5427943A 
@@ -8278,7 +8278,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6423      AABECE08 
  6423      17B3
  6424 04b1 EAEC0CCD 		.ascii	"\352\354\014\315\272\374\341\306\311\301\002\2557\330"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 139
+ARM GAS  /tmp/ccq1TspC.s 			page 139
 
 
  6424      BAFCE1C6 
@@ -8338,7 +8338,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6435      060C0F
  6436 0588 A2A0B8AB 		.ascii	"\242\240\270\253S\235\324\0270\337\034$\302c\326%\353"
  6436      539DD417 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 140
+ARM GAS  /tmp/ccq1TspC.s 			page 140
 
 
  6436      30DF1C24 
@@ -8398,7 +8398,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6448      1E50B9EC 
  6448      A1BA27A0 
  6448      C28C
-ARM GAS  /tmp/ccOvtvQQ.s 			page 141
+ARM GAS  /tmp/ccq1TspC.s 			page 141
 
 
  6449 0665 4D99B760 		.ascii	"M\231\267`\266+\306\315\004V\2351\254\315{\327\336\011"
@@ -8458,7 +8458,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6460      53C3A889 
  6460      1A6DC7E5 
  6460      FAB4EC
-ARM GAS  /tmp/ccOvtvQQ.s 			page 142
+ARM GAS  /tmp/ccq1TspC.s 			page 142
 
 
  6461 073e A3AC910E 		.ascii	"\243\254\221\016\011d\223\240\315\252M\260\2630\262"
@@ -8518,7 +8518,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6473 0809 941E5881 		.ascii	"\224\036X\201K\307Q\203\367`~\336\252\337\203c\356k"
  6473      4BC75183 
  6473      F7607EDE 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 143
+ARM GAS  /tmp/ccq1TspC.s 			page 143
 
 
  6473      AADF8363 
@@ -8578,7 +8578,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6485 08e2 03EFDF18 		.ascii	"\003\357\337\030\271\177\303\222\373\326\304\255[\301"
  6485      B97FC392 
  6485      FBD6C4AD 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 144
+ARM GAS  /tmp/ccq1TspC.s 			page 144
 
 
  6485      5BC1
@@ -8638,7 +8638,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6497 09ba C4C571EC 		.ascii	"\304\305q\354\205\246\033\305\343\177\0147\037\333\336"
  6497      85A61BC5 
  6497      E37F0C37 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 145
+ARM GAS  /tmp/ccq1TspC.s 			page 145
 
 
  6497      1FDBDE
@@ -8698,7 +8698,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6509 0a91 237FD00C 		.ascii	"#\177\320\014\036\271J3x$\271\012\001oV\312M\306P\260"
  6509      1EB94A33 
  6509      7824B90A 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 146
+ARM GAS  /tmp/ccq1TspC.s 			page 146
 
 
  6509      016F56CA 
@@ -8758,7 +8758,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6520      D9E5B9BA 
  6520      89E4B3AC 
  6520      5421
-ARM GAS  /tmp/ccOvtvQQ.s 			page 147
+ARM GAS  /tmp/ccq1TspC.s 			page 147
 
 
  6521 0b70 59E68D64 		.ascii	"Y\346\215d[\013\222\241\013w\326\346\231H\256\342\006"
@@ -8818,7 +8818,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6532      A3108C47 
  6532      7C08466C 
  6532      90E2
-ARM GAS  /tmp/ccOvtvQQ.s 			page 148
+ARM GAS  /tmp/ccq1TspC.s 			page 148
 
 
  6533 0c47 B0A27971 		.ascii	"\260\242yqX\241\304\341\321\026\211\303\243J\034\036"
@@ -8878,7 +8878,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6545 0d13 93B73153 		.ascii	"\223\2671SmQ\323P\245\266\320\227T[\344j\250)\257\206"
  6545      6D51D350 
  6545      A5B6D097 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 149
+ARM GAS  /tmp/ccq1TspC.s 			page 149
 
 
  6545      545BE46A 
@@ -8938,7 +8938,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6556      05D9
  6557 0df8 A1F0BADA 		.ascii	"\241\360\272\332\222\235\004\237d\347\216Iv~5\311\016"
  6557      929D049F 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 150
+ARM GAS  /tmp/ccq1TspC.s 			page 150
 
 
  6557      64E78E49 
@@ -8998,7 +8998,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6569 0eca 5CFF4F8C 		.ascii	"\\\377O\214\033i\177\035L\346\376\342:\2057\205\353"
  6569      1B697F1D 
  6569      4CE6FEE2 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 151
+ARM GAS  /tmp/ccq1TspC.s 			page 151
 
 
  6569      3A853785 
@@ -9058,7 +9058,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6581      4B64
  6582 0fa0 E0375CCA 		.ascii	"\3407\\\312\300l\376Dd \334~\315\313\300\034\\\1776"
  6582      C06CFE44 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 152
+ARM GAS  /tmp/ccq1TspC.s 			page 152
 
 
  6582      6420DC7E 
@@ -9118,7 +9118,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6594      67CAC038 
  6594      8CBF35CA 
  6594      C0C40E
-ARM GAS  /tmp/ccOvtvQQ.s 			page 153
+ARM GAS  /tmp/ccq1TspC.s 			page 153
 
 
  6595 1081 24033B55 		.ascii	"$\003;U\325\374\3524n\345\222\354\000\032M\371Ncc\355"
@@ -9178,7 +9178,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6606      CE5693EB 
  6606      90ABBF80 
  6607 1156 372BEF23 		.ascii	"7+\357#\343s`7\271\016\231\236\267\347:\333\004\327"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 154
+ARM GAS  /tmp/ccq1TspC.s 			page 154
 
 
  6607      E3736037 
@@ -9238,7 +9238,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6618      EDDB
  6619 1224 7CAC11EF 		.ascii	"|\254\021\357+o\236\367\035T\274\357\240\017\336\207"
  6619      2B6F9EF7 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 155
+ARM GAS  /tmp/ccq1TspC.s 			page 155
 
 
  6619      1D54BCEF 
@@ -9298,7 +9298,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6631 12f5 033A6595 		.ascii	"\003:e\225\376\323\276\237\325\230\252F\264O\204dyS"
  6631      FED3BE9F 
  6631      D598AA46 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 156
+ARM GAS  /tmp/ccq1TspC.s 			page 156
 
 
  6631      B44F8464 
@@ -9358,7 +9358,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6642      DA422CEE 
  6642      9858FCEA 
  6643 13d8 C59BE0CD 		.ascii	"\305\233\340\315\372s?\031\007\201\335\003\213\301\366"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 157
+ARM GAS  /tmp/ccq1TspC.s 			page 157
 
 
  6643      FA733F19 
@@ -9418,7 +9418,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6654      4033F4C6 
  6654      34CF
  6655 14aa 4C1A9F34 		.ascii	"L\032\2374\257A\321\274\231\372\237@\363f\352\222\346"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 158
+ARM GAS  /tmp/ccq1TspC.s 			page 158
 
 
  6655      AF41D1BC 
@@ -9478,7 +9478,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6666      06CC48E3 
  6666      524AF173 
  6666      D080
-ARM GAS  /tmp/ccOvtvQQ.s 			page 159
+ARM GAS  /tmp/ccq1TspC.s 			page 159
 
 
  6667 1583 01B1F0BF 		.ascii	"\001\261\360\277\241\303G\014\033\361_\357\307\216I"
@@ -9538,7 +9538,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6679      2306F91A 
  6679      9AF0E518 
  6679      1C183B
-ARM GAS  /tmp/ccOvtvQQ.s 			page 160
+ARM GAS  /tmp/ccq1TspC.s 			page 160
 
 
  6680 1659 F4BDF7DF 		.ascii	"\364\275\367\337}?v(\214\214}WM;*yD\362\307\377\210"
@@ -9571,7 +9571,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6685      FE1F710B 
  6685      5388
  6686              		.text
- 6687              		.section	.gnu.lto_obj_read.d0992e0934dee00d,"e",%progbits
+ 6687              		.section	.gnu.lto_obj_read.4c7237f649dce9aa,"e",%progbits
  6688 0000 789C8D56 		.ascii	"x\234\215V{LSW\030?\337=\267\345\332VE\263\261e.\261"
  6688      7B4C5357 
  6688      183FDF3D 
@@ -9598,7 +9598,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6692      E5E12221 
  6692      37E7
  6693 0061 9EF3FD7E 		.ascii	"\236\363\375~\337\343\374\276\357V\"@\244)\204|\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 161
+ARM GAS  /tmp/ccq1TspC.s 			page 161
 
 
  6693      DFE3FCBE 
@@ -9658,7 +9658,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6704 0130 ED345007 		.ascii	"\3554P\007'8Yt\257\333\240\021\364\224\304y<\312\363"
  6704      27385974 
  6704      AFDBA011 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 162
+ARM GAS  /tmp/ccq1TspC.s 			page 162
 
 
  6704      F494C479 
@@ -9718,7 +9718,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6715      19995200 
  6715      EE7C2940 
  6715      A7F89181 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 163
+ARM GAS  /tmp/ccq1TspC.s 			page 163
 
 
  6716 0212 C0692800 		.ascii	"\300i(\000\202\360\0005\3604\232L\217\263xE\245\026"
@@ -9778,7 +9778,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6727      DFADCCB7 
  6727      C40A
  6728 02e5 106EF0FA 		.ascii	"\020n\360\372v\305E\232\247\200)\361\352\266\335xWh"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 164
+ARM GAS  /tmp/ccq1TspC.s 			page 164
 
 
  6728      76C5459A 
@@ -9838,7 +9838,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6740 03b4 64E81E2D 		.ascii	"d\350\036-B\365\341\331c\312\254\203_\306\227\031m\325"
  6740      42F5E1D9 
  6740      63CAAC83 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 165
+ARM GAS  /tmp/ccq1TspC.s 			page 165
 
 
  6740      5FC69719 
@@ -9898,7 +9898,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6752      A47E8ADF 
  6752      7CB81E91 
  6752      E99D2899 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 166
+ARM GAS  /tmp/ccq1TspC.s 			page 166
 
 
  6753 049a 466BEC56 		.ascii	"Fk\354V=m\324\272\367\311\012\273\301\025\026\231o\370"
@@ -9958,7 +9958,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6764 055e EA351FDA 		.ascii	"\3525\037\332,r\026\332\312\031r\226\315\225\224E\346"
  6764      2C7216DA 
  6764      CA197296 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 167
+ARM GAS  /tmp/ccq1TspC.s 			page 167
 
 
  6764      CD959445 
@@ -9992,7 +9992,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6770      3AF21F8F 
  6770      7E6AF9
  6771              		.text
- 6772              		.section	.gnu.lto_oslib_test_sequence_006.d0992e0934dee00d,"e",%progbits
+ 6772              		.section	.gnu.lto_oslib_test_sequence_006.4c7237f649dce9aa,"e",%progbits
  6773 0000 789CE360 		.ascii	"x\234\343``d(```\010d\200\200\351\314\214\273\277\354"
  6773      60642860 
  6773      60600864 
@@ -10018,7 +10018,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6777      005533CF 
  6777      606660DC 
  6777      C3D8C238 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 168
+ARM GAS  /tmp/ccq1TspC.s 			page 168
 
 
  6778 0067 99917117 		.ascii	"\231\221q\027\220f`\334\313h\311`\257\247\247\017D\316"
@@ -10042,7 +10042,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6781      72466A31 
  6782 00b8 F74310   		.ascii	"\367C\020"
  6783              		.text
- 6784              		.section	.gnu.lto_oslib_test_sequence_006_array.d0992e0934dee00d,"e",%progbits
+ 6784              		.section	.gnu.lto_oslib_test_sequence_006_array.4c7237f649dce9aa,"e",%progbits
  6785 0000 789CE360 		.ascii	"x\234\343``d\010d``pd\200\200\351\314\214}\315\357\357"
  6785      60640864 
  6785      60607064 
@@ -10078,13 +10078,13 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6791      1EC48C2F 
  6791      4E2D2C4D 
  6791      CD4B4E8D 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 169
+ARM GAS  /tmp/ccq1TspC.s 			page 169
 
 
  6792 008b 4B660000 		.ascii	"Kf\000\000\310\2131\367"
  6792      C88B31F7 
  6793              		.text
- 6794              		.section	.gnu.lto_oslib_test_006_001.d0992e0934dee00d,"e",%progbits
+ 6794              		.section	.gnu.lto_oslib_test_006_001.4c7237f649dce9aa,"e",%progbits
  6795 0000 789CE360 		.ascii	"x\234\343``d\350e``\010g\200\200\351\314\214sW\234\371"
  6795      6064E865 
  6795      60600867 
@@ -10138,11 +10138,11 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6805      665E6649 
  6806 00d2 0300503B 		.ascii	"\003\000P;M\001"
  6806      4D01
-ARM GAS  /tmp/ccOvtvQQ.s 			page 170
+ARM GAS  /tmp/ccq1TspC.s 			page 170
 
 
  6807              		.text
- 6808              		.section	.gnu.lto_.symbol_nodes.d0992e0934dee00d,"e",%progbits
+ 6808              		.section	.gnu.lto_.symbol_nodes.4c7237f649dce9aa,"e",%progbits
  6809 0000 789C75D1 		.ascii	"x\234u\321\317kSA\020\007\360\231\331\274\227\230\337"
  6809      CF6B5341 
  6809      1007F099 
@@ -10198,7 +10198,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6820      D225998C 
  6820      4C0424DD 
  6820      16340ADC 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 171
+ARM GAS  /tmp/ccq1TspC.s 			page 171
 
 
  6820      EB161A
@@ -10258,7 +10258,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6832      3F63663A 
  6832      E175E62C 
  6832      336DA91A 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 172
+ARM GAS  /tmp/ccq1TspC.s 			page 172
 
 
  6832      CC546BE1 
@@ -10281,7 +10281,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6836      03D8F134 
  6836      4F
  6837              		.text
- 6838              		.section	.gnu.lto_.refs.d0992e0934dee00d,"e",%progbits
+ 6838              		.section	.gnu.lto_.refs.4c7237f649dce9aa,"e",%progbits
  6839 0000 789C0DCB 		.ascii	"x\234\015\313\261\015\302`\020\203\321\363w\007\374"
  6839      B10DC260 
  6839      1083D1F3 
@@ -10309,7 +10309,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6844 0059 D4A13801 		.ascii	"\324\2418\001^\241\015+"
  6844      5EA10D2B 
  6845              		.text
- 6846              		.section	.gnu.lto_.decls.d0992e0934dee00d,"e",%progbits
+ 6846              		.section	.gnu.lto_.decls.4c7237f649dce9aa,"e",%progbits
  6847 0000 789CA55A 		.ascii	"x\234\245ZiT\034\327\225\356\327\257\233}Q\220\034{"
  6847      69541CD7 
  6847      95EED7AF 
@@ -10318,7 +10318,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6848 0012 2227E3F1 		.ascii	"\"'\343\361\340\023\347\3046r\342\304>\023\307\216\355"
  6848      E013E7C4 
  6848      3672E2C4 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 173
+ARM GAS  /tmp/ccq1TspC.s 			page 173
 
 
  6848      3E13C78E 
@@ -10378,7 +10378,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6860 00eb 16D35D0B 		.ascii	"\026\323]\013\347\237\302\261\216\240\315\317\201\274"
  6860      E79FC2B1 
  6860      8EA0CDCF 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 174
+ARM GAS  /tmp/ccq1TspC.s 			page 174
 
 
  6860      81BC
@@ -10438,7 +10438,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6872 01bd 6A922859 		.ascii	"j\222(Y\035\034\373\371\010\031\"D\303\376\311\376\020"
  6872      1D1CFBF9 
  6872      08192244 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 175
+ARM GAS  /tmp/ccq1TspC.s 			page 175
 
 
  6872      C3FEC9FE 
@@ -10498,7 +10498,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6883      17DC6229 
  6883      F172
  6884 029e 213A18EE 		.ascii	"!:\030\356o\274\320\340\002\303\015.\344%\030\346'\364"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 176
+ARM GAS  /tmp/ccq1TspC.s 			page 176
 
 
  6884      6FBCD0E0 
@@ -10558,7 +10558,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6895 036a F91AD77C 		.ascii	"\371\032\327|\235<\257!W\211\016\325\347\215\247\037"
  6895      9D3CAF21 
  6895      57890ED5 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 177
+ARM GAS  /tmp/ccq1TspC.s 			page 177
 
 
  6895      E78DA71F 
@@ -10618,7 +10618,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6906      8405
  6907 044c 6B58CED2 		.ascii	"kX\316\322\374\251\261\026\03588,I\225]=\336\245\371"
  6907      FCA9B116 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 178
+ARM GAS  /tmp/ccq1TspC.s 			page 178
 
 
  6907      1D38382C 
@@ -10678,7 +10678,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6918      47F382BD 
  6918      874E9DCA 
  6918      3AF347BB 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 179
+ARM GAS  /tmp/ccq1TspC.s 			page 179
 
 
  6919 0522 A9BECF5C 		.ascii	"\251\276\317\\\232\221]\212\236_\315w\020\240\236,\276"
@@ -10738,7 +10738,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6930      EAE2BB97 
  6930      DA713102 
  6930      1379AC08 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 180
+ARM GAS  /tmp/ccq1TspC.s 			page 180
 
 
  6931 05fd C6633918 		.ascii	"\306c9\030\222\226\005#\266*\251\206\322\014\364n*-"
@@ -10798,7 +10798,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6942      2ABF0195 
  6942      F1A87236 
  6942      FD66
-ARM GAS  /tmp/ccOvtvQQ.s 			page 181
+ARM GAS  /tmp/ccq1TspC.s 			page 181
 
 
  6943 06dd 8B3B9D46 		.ascii	"\213;\235F\225\0059gZuV\273\202\375\240-Q\253\334\025"
@@ -10858,7 +10858,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6954      97C596B5 
  6954      925DBF9A 
  6954      D03BE4
-ARM GAS  /tmp/ccOvtvQQ.s 			page 182
+ARM GAS  /tmp/ccq1TspC.s 			page 182
 
 
  6955 07b2 8CE37760 		.ascii	"\214\343w`XZ\032?\342D\323PW\365\305\276I-^\333\304"
@@ -10918,7 +10918,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6966      736C73BF 
  6966      B991E32D 
  6966      492C9B
-ARM GAS  /tmp/ccOvtvQQ.s 			page 183
+ARM GAS  /tmp/ccq1TspC.s 			page 183
 
 
  6967 0898 76A26388 		.ascii	"v\242c\210\267\367\301\336\323N\353m\003,\262\015\220"
@@ -10978,7 +10978,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6978 096a 45DED2C9 		.ascii	"E\336\322\311\321h\017\332\200\203\231k\347*\011\275"
  6978      D1680FDA 
  6978      8083996B 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 184
+ARM GAS  /tmp/ccq1TspC.s 			page 184
 
 
  6978      E72A09BD 
@@ -11038,7 +11038,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  6990      030D000D 
  6990      018D018D 
  6990      038D02
-ARM GAS  /tmp/ccOvtvQQ.s 			page 185
+ARM GAS  /tmp/ccq1TspC.s 			page 185
 
 
  6991 0a4f DD021A51 		.ascii	"\335\002\032Q&\255\265\304\353x\204T\377\337|\037\320"
@@ -11098,7 +11098,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7002      50C60107 
  7002      6C72ECBE 
  7002      51BF7C30 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 186
+ARM GAS  /tmp/ccq1TspC.s 			page 186
 
 
  7002      51ABB8
@@ -11158,7 +11158,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7014      D3064415 
  7014      BDA7ADC1 
  7014      9DB6E3
-ARM GAS  /tmp/ccOvtvQQ.s 			page 187
+ARM GAS  /tmp/ccq1TspC.s 			page 187
 
 
  7015 0c09 402A3CB7 		.ascii	"@*<\267\350I{q\020{2s\304\335\366\003\311S\233\017$"
@@ -11218,7 +11218,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7026 0cdb DE61BDED 		.ascii	"\336a\275\355\324\327\377\343\251g\225\371\2648Jl\374"
  7026      D4D7FFE3 
  7026      A96795F9 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 188
+ARM GAS  /tmp/ccq1TspC.s 			page 188
 
 
  7026      B4384A6C 
@@ -11278,7 +11278,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7037      8D912342 
  7037      D11A7BEC 
  7037      FDC0B5
-ARM GAS  /tmp/ccOvtvQQ.s 			page 189
+ARM GAS  /tmp/ccq1TspC.s 			page 189
 
 
  7038 0dbb A3E9AAA6 		.ascii	"\243\351\252\246}\024\330\346\300\336#n\351\030\013"
@@ -11338,7 +11338,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7049      2B97CD83 
  7049      BC5D6D9E 
  7049      B40D2338 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 190
+ARM GAS  /tmp/ccq1TspC.s 			page 190
 
 
  7049      1C
@@ -11398,7 +11398,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7061      8FCC6713 
  7061      65EC4B54 
  7061      964AE5D8 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 191
+ARM GAS  /tmp/ccq1TspC.s 			page 191
 
 
  7061      1F4F
@@ -11458,7 +11458,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7073      0CB7
  7074 1032 9F53FD6A 		.ascii	"\237S\375j\301\356\035\026\336z\344\255\347\274\217"
  7074      C1EE1D16 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 192
+ARM GAS  /tmp/ccq1TspC.s 			page 192
 
 
  7074      DE7AE4AD 
@@ -11518,7 +11518,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7086 1102 AC03DBDD 		.ascii	"\254\003\333\335-\016N\330w\264K8z\003\035\225\337\352"
  7086      2D0E4ED8 
  7086      77B44B38 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 193
+ARM GAS  /tmp/ccq1TspC.s 			page 193
 
 
  7086      7A031D95 
@@ -11578,7 +11578,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7098 11da 58D5476E 		.ascii	"X\325Gn\251\224\217\243\362q\256\2744-\252Z\224\233"
  7098      A9948FA3 
  7098      F271AEBC 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 194
+ARM GAS  /tmp/ccq1TspC.s 			page 194
 
 
  7098      342DAA5A 
@@ -11638,7 +11638,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7109      227D4353 
  7109      94D40E
  7110 12b6 41F915FF 		.ascii	"A\371\025\377\263#\362\320\242\362\021\250|\250V\031"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 195
+ARM GAS  /tmp/ccq1TspC.s 			page 195
 
 
  7110      B323F2D0 
@@ -11698,7 +11698,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7121      5A023CAD 
  7121      0AB0
  7122 138e A4939187 		.ascii	"\244\223\221\207\351t$\\\3672\233Q\232I\002\3440\315"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 196
+ARM GAS  /tmp/ccq1TspC.s 			page 196
 
 
  7122      E974245C 
@@ -11758,7 +11758,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7133      37DFD6FC 
  7133      AB5D9637 
  7133      7EF2
-ARM GAS  /tmp/ccOvtvQQ.s 			page 197
+ARM GAS  /tmp/ccq1TspC.s 			page 197
 
 
  7134 1463 D94F7C7F 		.ascii	"\331O|\177\362\316g?\325\350\015\037\006\005ms\363\363"
@@ -11818,7 +11818,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7146 152f 052FC933 		.ascii	"\005/\3113\302j\340V\236#^+\1770\230\\\340\234\205\011"
  7146      C26AE056 
  7146      9E235E2B 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 198
+ARM GAS  /tmp/ccq1TspC.s 			page 198
 
 
  7146      7F30985C 
@@ -11878,7 +11878,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7157      9CE9F3
  7158 1607 E0A0D0ED 		.ascii	"\340\240\320\355\272-\333M\301\272-\276&_G\226\355w"
  7158      BA2DDB4D 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 199
+ARM GAS  /tmp/ccq1TspC.s 			page 199
 
 
  7158      C1BA2DBE 
@@ -11938,13 +11938,13 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7170 16d4 F1FB4006 		.ascii	"\361\373@\006\315\225\203\014\345\347\377\013YV\303"
  7170      CD95830C 
  7170      E5E7FF0B 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 200
+ARM GAS  /tmp/ccq1TspC.s 			page 200
 
 
  7170      5956C3
  7171 16e3 2B       		.ascii	"+"
  7172              		.text
- 7173              		.section	.gnu.lto_.symtab.d0992e0934dee00d,"e",%progbits
+ 7173              		.section	.gnu.lto_.symtab.4c7237f649dce9aa,"e",%progbits
  7174 0000 6F736C69 		.ascii	"oslib_test_sequence_006\000"
  7174      625F7465 
  7174      73745F73 
@@ -11998,7 +11998,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7202      00000000 
  7203 00ad EA000000 		.ascii	"\352\000\000\000"
  7204 00b1 63685363 		.ascii	"chSchRescheduleS\000"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 201
+ARM GAS  /tmp/ccq1TspC.s 			page 201
 
 
  7204      68526573 
@@ -12058,7 +12058,7 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7234      6368654F 
  7234      626A6563 
  7234      74496E69 
-ARM GAS  /tmp/ccOvtvQQ.s 			page 202
+ARM GAS  /tmp/ccq1TspC.s 			page 202
 
 
  7234      7400
@@ -12098,12 +12098,12 @@ ARM GAS  /tmp/ccOvtvQQ.s 			page 1
  7248              		.comm	__gnu_lto_v1,1,1
  7249              		.comm	__gnu_lto_slim,1,1
  7250              		.ident	"GCC: (Arch Repository) 9.2.0"
-ARM GAS  /tmp/ccOvtvQQ.s 			page 203
+ARM GAS  /tmp/ccq1TspC.s 			page 203
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 oslib_test_sequence_006.c
-     /tmp/ccOvtvQQ.s:64     .gnu.debuglto_.debug_info:0000000000000000 oslib_test_sequence_006.c.5b5a58b6
+     /tmp/ccq1TspC.s:64     .gnu.debuglto_.debug_info:0000000000000000 oslib_test_sequence_006.c.5b5a58b6
                             *COM*:0000000000000001 __gnu_lto_v1
                             *COM*:0000000000000001 __gnu_lto_slim
 

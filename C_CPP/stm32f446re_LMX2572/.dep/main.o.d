@@ -121,7 +121,8 @@ build/obj/main.o: main.c \
  ../../ChibiOS/os/hal/include/hal_mmc_spi.h \
  ../../ChibiOS/os/hal/include/hal_serial_usb.h \
  ../../ChibiOS/os/hal/lib/streams/chprintf.h source/lmx2572.h \
- ../../ChibiOS/os/various/shell/shell.h cfg/shellconf.h
+ source/lmx2572_configs.h ../../ChibiOS/os/various/shell/shell.h \
+ cfg/shellconf.h
 
 /usr/lib/gcc/arm-none-eabi/9.2.0/include/stdbool.h:
 
@@ -384,6 +385,8 @@ cfg/mcuconf.h:
 ../../ChibiOS/os/hal/lib/streams/chprintf.h:
 
 source/lmx2572.h:
+
+source/lmx2572_configs.h:
 
 ../../ChibiOS/os/various/shell/shell.h:
 

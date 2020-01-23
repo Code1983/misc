@@ -29,6 +29,7 @@
 #include "hal.h"
 #include "chprintf.h"
 #include "lmx2572.h"
+#include "lmx2572_configs.h"
 #include "shell.h"
 
 
@@ -37,135 +38,7 @@
 
 
 
-// 430 MHz
-uint32_t reg_values[] = {
-  0x7D2288,
-  0x7C0000,
-  0x7B0000,
-  0x7A0000,
-  0x790000,
-  0x780000,
-  0x770000,
-  0x760000,
-  0x750000,
-  0x740000,
-  0x730000,
-  0x727802,
-  0x710000,
-  0x700000,
-  0x6F0000,
-  0x6E0000,
-  0x6D0000,
-  0x6C0000,
-  0x6B0000,
-  0x6A0007,
-  0x694440,
-  0x680000,
-  0x670000,
-  0x660000,
-  0x650000,
-  0x640000,
-  0x630000,
-  0x620000,
-  0x610000,
-  0x600000,
-  0x5F0000,
-  0x5E0000,
-  0x5D0000,
-  0x5C0000,
-  0x5B0000,
-  0x5A0000,
-  0x590000,
-  0x580000,
-  0x570000,
-  0x560000,
-  0x550000,
-  0x540000,
-  0x530000,
-  0x520000,
-  0x510000,
-  0x500000,
-  0x4F0000,
-  0x4E008F,
-  0x4D0000,
-  0x4C000C,
-  0x4B08C0,
-  0x4A0000,
-  0x49003F,
-  0x480001,
-  0x470081,
-  0x46C350,
-  0x450000,
-  0x4403E8,
-  0x430000,
-  0x4201F4,
-  0x410000,
-  0x401388,
-  0x3F0000,
-  0x3E00AF,
-  0x3D00A8,
-  0x3C03E8,
-  0x3B0001,
-  0x3A9001,
-  0x390020,
-  0x380000,
-  0x370000,
-  0x360000,
-  0x350000,
-  0x340421,
-  0x330080,
-  0x320080,
-  0x314180,
-  0x3003E0,
-  0x2F0300,
-  0x2E07F0,
-  0x2DC61F,
-  0x2C1FA3,
-  0x2B0000,
-  0x2A0000,
-  0x290000,
-  0x280000,
-  0x2703E8,
-  0x260000,
-  0x250305,
-  0x2400AC,
-  0x230004,
-  0x220010,
-  0x211E01,
-  0x2005BF,
-  0x1FC3E6,
-  0x1E18A6,
-  0x1D0000,
-  0x1C0488,
-  0x1B0002,
-  0x1A0808,
-  0x190624,
-  0x18071A,
-  0x17007C,
-  0x160001,
-  0x150409,
-  0x144848,
-  0x1327B7,
-  0x120064,
-  0x110089,
-  0x100080,
-  0x0F060E,
-  0x0E1878,
-  0x0D4000,
-  0x0C5001,
-  0x0BB018,
-  0x0A10F8,
-  0x091004,
-  0x082000,
-  0x0700B2,
-  0x06C802,
-  0x0530C8,
-  0x040A43,
-  0x030782,
-  0x020500,
-  0x010808,
-  0x00211C
-  };
+int shell_counter = 0;
 
 
 /*
@@ -243,8 +116,8 @@ static void main_loop(void)
   chprintf(DEBUG_CHP, "\r\n Resets LMX2572\r\n");
   chThdSleepMilliseconds(500);
   
-  lmx2572_load_regs(&SPID1, reg_values);
-  chprintf(DEBUG_CHP, "\r\n Done Loading LMX2572 reg values\r\n");
+  lmx2572_load_regs(&SPID1, reg_values_430);
+  chprintf(DEBUG_CHP, "\r\n Done Loading LMX2572 430MHz reg values\r\n");
 
 
   while(true)
@@ -279,6 +152,53 @@ static void reg(BaseSequentialStream *sd, int argc, char *argv[]) {
   chprintf(sd, "INFO: Updated with value 0x%x.\r\n", value);
 }
 
+
+/*
+ * shell commands for user entry
+ * Provides a list of comamnds and their description to Chibios shell user.
+ */
+static void change(BaseSequentialStream *sd, int argc, char *argv[]) {
+
+  (void) argc;
+  (void) argv;   
+  
+  shell_counter = shell_counter + 1;
+  if(shell_counter > 5)
+    shell_counter = 0;
+    
+  switch(shell_counter){
+  case 0:
+    lmx2572_load_regs(&SPID1, reg_values_430);
+    chprintf(sd, " Done Loading LMX2572 430MHz reg values\r\n");
+    break;
+  case 1:
+    lmx2572_load_regs(&SPID1, reg_values_51);
+    chprintf(sd, " Done Loading LMX2572 51.5MHz, 3296MHz  reg values\r\n");
+    break;
+  case 2:
+    lmx2572_load_regs(&SPID1, reg_values_330);
+    chprintf(sd, " Done Loading LMX2572 330MHz, 5280MHz reg values\r\n");
+    break;
+  case 3:
+    lmx2572_load_regs(&SPID1, reg_values_1275);
+    chprintf(sd, " Done Loading LMX2572 1275MHz, 5100MHz reg values\r\n");
+    break;
+  case 4:
+    lmx2572_load_regs(&SPID1, reg_values_3100);
+    chprintf(sd, " Done Loading LMX2572 3100MHz, 6200MHz reg values\r\n");
+    break;
+  case 5:
+    lmx2572_load_regs(&SPID1, reg_values_4100);
+    chprintf(sd, " Done Loading LMX2572 4100MHz VCO reg values\r\n");
+    break;
+  default:
+    lmx2572_load_regs(&SPID1, reg_values_430);
+    chprintf(sd, " Done Loading LMX2572 430MHz reg values\r\n");
+    break;    
+    
+    
+  }            
+}  
 /*
  * shell commands for user entry
  * Provides a list of comamnds and their description to Chibios shell user.
@@ -290,6 +210,9 @@ static void ti_help(BaseSequentialStream *sd, int argc, char *argv[]) {
   
   chprintf(sd, "Available commands:\r\n");
   chprintf(sd, "    reg:   Update registers,Usage reg <value> register address concated with its value\r\n");
+  chprintf(sd, "    reset command would be reg 0x00211E\r\n");
+  chprintf(sd, "    recalibration command would be reg 0x00211C\r\n");
+  chprintf(sd, "    c:   loop through available profiles\r\n");
   chprintf(sd, "    ?:   provides list of commands\n\n\r\n");
 }
 
@@ -301,6 +224,7 @@ static void ti_help(BaseSequentialStream *sd, int argc, char *argv[]) {
  */ 
 static const ShellCommand commands[] = {
   {"reg", reg},
+  {"c", change},
   {"?", ti_help},
   {NULL, NULL}
 };
