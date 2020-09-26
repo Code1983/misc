@@ -1,0 +1,58 @@
+24LC16B using python on raspberry pi
+=====================================
+
+
+pi@raspberrypi:~ $ sudo i2cdetect -y 1
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+50: 50 51 52 53 54 55 56 57 -- -- -- -- -- -- -- -- 
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+70: -- -- -- -- -- -- -- -- 
+
+pi@raspberrypi:~ $ python
+Python 2.7.16 (default, Apr  6 2019, 01:42:57) 
+[GCC 8.2.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import smbus
+>>> bus = smbus.SMBus(1)
+>>> bus.read_i2c_block_data(0x50, 0, 12)
+[255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+>>> bus.read_i2c_block_data(0x51, 0, 12)
+[255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+>>> bus.read_i2c_block_data(0x41, 0, 12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 121] Remote I/O error
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+[255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+>>> bus.read_i2c_block_data(0x57, 0, 12)
+[255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+>>> bus.read_i2c_block_data(0x58, 0, 12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 121] Remote I/O error
+>>> data = [0, 1,2,3,4,5,6,7,8]
+>>> data
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+[255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255]
+>>> bus.write_i2c_block_data(0x52, 0, data)
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 255, 255, 255]
+>>> data = [6, 9,4,7,7,12,99,54,78]
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 255, 255, 255]
+>>> bus.write_i2c_block_data(0x52, 0, data)
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+[6, 9, 4, 7, 7, 12, 99, 54, 78, 255, 255, 255]
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 121] Remote I/O error
+>>> bus.read_i2c_block_data(0x52, 0, 12)
+[6, 9, 4, 7, 7, 12, 99, 54, 78, 255, 255, 255]
+>>> 
